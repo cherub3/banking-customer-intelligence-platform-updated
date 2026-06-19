@@ -315,8 +315,9 @@ def print_summary(customers_df: pd.DataFrame, txn_df: pd.DataFrame) -> None:
 
 # ── Entry point ────────────────────────────────────────────────────────────────
 
-def main() -> None:
-    root = Path(__file__).parent.parent
+def generate(root: Path = None) -> None:
+    """Generate synthetic reference, customer, and transaction CSVs under data/."""
+    root = root or Path(__file__).parent.parent
     raw_dir = root / "data" / "raw"
     ref_dir = root / "data" / "reference"
     raw_dir.mkdir(parents=True, exist_ok=True)
@@ -341,6 +342,10 @@ def main() -> None:
     txns.to_csv(raw_dir / "transactions.csv", index=False)
 
     print_summary(customers_full, txns)
+
+
+def main() -> None:
+    generate()
 
 
 if __name__ == "__main__":

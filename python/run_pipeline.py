@@ -52,13 +52,22 @@ LOAD_ORDER = [
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
+class PipelineError(RuntimeError):
+    """Raised when a pipeline stage fails, carrying the stage name for clean reporting."""
+
+    def __init__(self, stage: str, original: Exception):
+        self.stage = stage
+        self.original = original
+        super().__init__(f"Pipeline failed at stage '{stage}': {original}")
+
+
 def check_data_files() -> None:
     missing = [path for _, path in LOAD_ORDER if not path.exists()]
     if missing:
         log.error("Missing data files. Run  python python/generate_data.py  first.")
         for f in missing:
             log.error(f"  Not found: {f}")
-        sys.exit(1)
+        raise PipelineError("check_data_files", FileNotFoundError(f"Missing: {missing}"))
 
 
 def execute_sql_file(con: duckdb.DuckDBPyConnection, filepath: Path) -> None:
@@ -110,8 +119,7 @@ def run_sql_layers(con: duckdb.DuckDBPyConnection) -> None:
     for filename in SQL_LAYERS:
         path = SQL_DIR / filename
         if not path.exists():
-            log.warning(f"  SKIP  {filename}  (file not found — build it in Phase 2)")
-            continue
+            raise FileNotFoundError(f"Required SQL layer file is missing: {path}")
         log.info(f"  Running  {filename} …")
         execute_sql_file(con, path)
         log.info(f"  ✓  {filename}")
@@ -158,21 +166,32 @@ def print_summary(con: duckdb.DuckDBPyConnection) -> None:
 
 # ── Entry point ────────────────────────────────────────────────────────────────
 
-def main() -> None:
+def run(db_path: Path = DB_PATH) -> None:
+    """Execute the full pipeline against db_path, raising PipelineError on failure."""
     check_data_files()
 
-    log.info(f"Connecting to database: {DB_PATH}")
-    con = duckdb.connect(str(DB_PATH))
+    log.info(f"Connecting to database: {db_path}")
+    con = duckdb.connect(str(db_path))
 
     try:
-        create_schema(con)
-        load_data(con)
-        run_sql_layers(con)
+        for stage_name, stage_fn in [
+            ("create_schema", create_schema),
+            ("load_data", load_data),
+            ("run_sql_layers", run_sql_layers),
+        ]:
+            try:
+                stage_fn(con)
+            except Exception as exc:
+                raise PipelineError(stage_name, exc) from exc
         print_summary(con)
     finally:
         con.close()
 
     log.info("Pipeline complete.")
+
+
+def main() -> None:
+    run()
 
 
 if __name__ == "__main__":

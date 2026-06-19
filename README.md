@@ -96,23 +96,28 @@ Views (Dashboard Layer)
 ```
 banking-intelligence-pipeline/
 ├── data/
-│   └── banking_platform.duckdb       Analytical database (auto-generated)
+│   ├── raw/                           Synthetic customers.csv / transactions.csv (committed)
+│   ├── reference/                     RM + product reference CSVs (committed)
+│   └── banking_platform.duckdb        Analytical database — NOT committed, built on first run
 ├── sql/
-│   ├── 01_raw_transactions.sql
-│   ├── 02_raw_customers.sql
-│   ├── 03_staging_transactions.sql
-│   ├── 04_fct_customer_360.sql
-│   ├── 05_fct_customer_segments.sql
-│   ├── 06_fct_customer_health.sql
-│   ├── 07_fct_exceptions.sql
-│   ├── 08_fct_rm_actions.sql
+│   ├── 00_schema.sql
+│   ├── 01_customer_360.sql
+│   ├── 02_rfm_scoring.sql
+│   ├── 03_segmentation.sql
+│   ├── 04_health_scoring.sql
+│   ├── 05_concentration.sql
+│   ├── 06_rm_actions.sql
+│   ├── 07_exceptions.sql
+│   ├── 08_executive_kpis.sql
 │   └── 09_views.sql
-├── scripts/
-│   └── build_pipeline.py             Runs all SQL layers in sequence
+├── python/
+│   ├── generate_data.py              Synthetic data generator
+│   ├── run_pipeline.py                Runs all SQL layers in sequence
+│   └── bootstrap.py                   Auto-builds the warehouse if missing
 ├── dashboard/
 │   ├── app.py                        Streamlit navigation router
 │   ├── utils/
-│   │   ├── db.py                     DB connection + query helpers
+│   │   ├── db.py                     DB connection + query helpers (triggers auto-build)
 │   │   ├── styles.py                 Color system + HTML components
 │   │   └── charts.py                 Plotly chart builders
 │   └── pages/
@@ -133,16 +138,8 @@ banking-intelligence-pipeline/
 ### Prerequisites
 
 ```bash
-pip install duckdb streamlit plotly pandas faker numpy
+pip install -r requirements.txt
 ```
-
-### Build the Database
-
-```bash
-python scripts/build_pipeline.py
-```
-
-This runs all 9 SQL layers in sequence and writes `data/banking_platform.duckdb`.
 
 ### Launch the Dashboard
 
@@ -150,7 +147,57 @@ This runs all 9 SQL layers in sequence and writes `data/banking_platform.duckdb`
 streamlit run dashboard/app.py
 ```
 
-Navigate to `http://localhost:8501` in your browser.
+Navigate to `http://localhost:8501` in your browser. No manual build step is required — see **First Run Behavior** below.
+
+---
+
+## First Run Behavior
+
+`data/banking_platform.duckdb` is intentionally **not committed to GitHub** — DuckDB files don't belong in version control, and Streamlit Cloud deployments should never depend on a binary artifact baked into the repo.
+
+Instead, `dashboard/utils/db.py` checks for the warehouse on first query and builds it automatically if it's missing:
+
+1. **Check** — `python/bootstrap.py:check_db()` looks for `data/banking_platform.duckdb` on disk.
+2. **Generate source data** (only if `data/raw/*.csv` is also missing) — regenerates the synthetic customers/transactions CSVs via `python/generate_data.py`.
+3. **Run the pipeline** — executes all 9 SQL layers via `python/run_pipeline.py`, building the warehouse into a temporary file.
+4. **Atomic swap** — the temp file is renamed into place only once the build succeeds, so a crash mid-build never leaves a corrupt warehouse behind.
+5. **Cache** — `st.cache_resource` ensures this check only runs once per app process, not on every page refresh.
+
+You'll see log lines like:
+
+```
+Database not found. Building warehouse …
+Generating source data …
+Executing analytics pipeline …
+Warehouse ready.
+```
+
+on first launch (or first launch after a fresh clone / Streamlit Cloud cold start). Subsequent reruns skip straight to "Warehouse already present — skipping build." If the build fails, the dashboard shows a clean error naming the failing step instead of a raw stack trace; full details go to the application logs.
+
+This means a fresh clone works end-to-end with just:
+
+```bash
+pip install -r requirements.txt
+streamlit run dashboard/app.py
+```
+
+### Verifying a deployment
+
+Run the standalone self-test anywhere the app will run (locally, CI, or a Streamlit Cloud terminal) to check imports, paths, the bootstrap build, and a real query — independent of the Streamlit UI:
+
+```bash
+python python/self_test.py
+```
+
+It prints PASS/FAIL per check and exits non-zero on any failure.
+
+### Debug panel
+
+Tick **🔧 Debug info** in the sidebar to see live diagnostics (project root, database path, existence checks, platform) without digging through logs.
+
+### Troubleshooting: works locally, fails on Streamlit Cloud
+
+If you see `duckdb.IOException` at a `read_only=True` connect on Cloud only, it means the warehouse build failed (or never ran) but the failure wasn't surfaced before the dashboard tried to read the file. This was an actual bug fixed in this codebase: the original `ensure_warehouse()` was wrapped in `@st.cache_resource`, but Streamlit does not reliably propagate `st.error()`/`st.stop()` calls made from inside a cached function — so a swallowed build failure let execution fall through to a connect against a database that was never created. The fix: the check → build → verify → connect sequence in [dashboard/utils/db.py](dashboard/utils/db.py) now runs as a **plain, uncached function**, called once per page load from [dashboard/app.py](dashboard/app.py) (cheap — a single `os.stat()` once the file exists), with an explicit post-build verification step before any connection is attempted.
 
 ---
 

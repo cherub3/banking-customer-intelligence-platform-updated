@@ -17,6 +17,16 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Ensure the warehouse exists before any page tries to query it. This runs on
+# every script execution (app.py is the entry point for every page in this
+# st.navigation app), but is cheap — a single os.stat() — once the database
+# is built. Deliberately NOT wrapped in @st.cache_resource: see
+# dashboard/utils/db.py module docstring for why that pattern hid the
+# original Streamlit Cloud deployment failure.
+from utils.db import ensure_warehouse  # noqa: E402
+
+ensure_warehouse()
+
 inject_css()
 
 # ── Sidebar branding (persistent across all pages) ────────────────────────────
@@ -50,6 +60,12 @@ pg = st.navigation(
         ],
     }
 )
+
+# ── Sidebar debug panel (diagnostics — off by default) ────────────────────────
+st.sidebar.markdown("---")
+if st.sidebar.checkbox("🔧 Debug info", value=False):
+    from bootstrap import get_diagnostics
+    st.sidebar.json(get_diagnostics())
 
 # ── Sidebar footer ────────────────────────────────────────────────────────────
 st.sidebar.markdown("---")
