@@ -1,0 +1,1001 @@
+customer_id,customer_name,customer_type,onboarding_date,relationship_manager,region,is_active
+CUST00001,Evans LLC,Corporate,2020-10-04,RM010,London,1
+CUST00002,"Pritchard, Thomas and Nicholls",Corporate,2019-07-30,RM009,Leeds,1
+CUST00003,Simpson Group,Corporate,2021-01-27,RM010,Birmingham,1
+CUST00004,Fisher Ltd,Corporate,2019-05-03,RM003,Bristol,1
+CUST00005,"Young, Evans and Lucas",SME,2021-09-07,RM005,Manchester,1
+CUST00006,Thomas and Sons,Corporate,2019-04-24,RM006,London,1
+CUST00007,Robinson-Davis,Corporate,2021-06-17,RM002,Birmingham,1
+CUST00008,Palmer Group,SME,2020-03-16,RM005,London,1
+CUST00009,"Lee, Marsden and Evans",SME,2020-08-01,RM002,Leeds,1
+CUST00010,"Phillips, Cross and Miah",Corporate,2020-06-30,RM005,Bristol,1
+CUST00011,"Thomson, Wilkinson and Smith",SME,2020-05-09,RM004,Bristol,1
+CUST00012,Lamb-Scott,Corporate,2023-05-03,RM004,Birmingham,1
+CUST00013,"Holmes, Lloyd and Duncan",Corporate,2022-04-15,RM002,Leeds,1
+CUST00014,Wilson Inc,SME,2021-01-18,RM006,Manchester,1
+CUST00015,Alexander-Collins,SME,2021-08-07,RM004,Bristol,1
+CUST00016,"Hawkins, McLean and Lynch",SME,2019-08-28,RM002,Edinburgh,1
+CUST00017,Young-Graham,Corporate,2020-08-06,RM004,Manchester,1
+CUST00018,Pritchard and Sons,SME,2021-06-18,RM005,Bristol,1
+CUST00019,"Moore, Smith and Jackson",Corporate,2019-10-02,RM006,London,1
+CUST00020,"Matthews, Lloyd and Turner",Corporate,2023-05-31,RM006,Leeds,1
+CUST00021,"Hughes, Davey and Taylor",SME,2023-03-22,RM004,Edinburgh,1
+CUST00022,Johnson Ltd,SME,2022-05-26,RM008,Leeds,1
+CUST00023,Anderson-Cooper,SME,2022-10-16,RM005,Manchester,1
+CUST00024,"Turner, Hill and Coates",Corporate,2019-06-01,RM009,Edinburgh,1
+CUST00025,Davies Inc,SME,2019-05-28,RM010,Leeds,1
+CUST00026,"Young, Myers and Read",SME,2021-07-24,RM004,Manchester,1
+CUST00027,Griffiths-Williams,SME,2023-01-30,RM001,London,1
+CUST00028,Harper-Atkinson,Corporate,2020-01-27,RM003,Bristol,1
+CUST00029,"Smith, Knight and Carpenter",SME,2020-03-31,RM002,Leeds,1
+CUST00030,Taylor LLC,SME,2020-04-01,RM008,Edinburgh,1
+CUST00031,"Buckley, Ryan and Patel",SME,2020-06-27,RM001,Bristol,1
+CUST00032,Powell PLC,Corporate,2019-10-08,RM009,Birmingham,1
+CUST00033,Anderson Group,SME,2022-12-19,RM005,Leeds,1
+CUST00034,Griffiths LLC,Corporate,2021-01-17,RM001,Bristol,1
+CUST00035,Smith-Smith,SME,2020-10-13,RM003,Edinburgh,1
+CUST00036,"May, Cunningham and Jones",Corporate,2020-02-01,RM005,Bristol,1
+CUST00037,Stewart PLC,Corporate,2022-09-25,RM006,Manchester,1
+CUST00038,Clarke Group,Corporate,2020-03-26,RM006,Leeds,1
+CUST00039,"O'Brien, Hill and Jenkins",Corporate,2022-12-18,RM006,Birmingham,1
+CUST00040,Murray Ltd,Corporate,2023-04-08,RM004,Edinburgh,1
+CUST00041,"Lawson, Webster and Turner",Corporate,2023-02-10,RM008,London,1
+CUST00042,"Patel, Lyons and Price",Corporate,2022-11-15,RM008,Edinburgh,1
+CUST00043,Wilson LLC,Corporate,2022-02-08,RM009,Edinburgh,1
+CUST00044,Fox and Sons,SME,2022-05-28,RM009,Bristol,1
+CUST00045,"Quinn, Hammond and Yates",Corporate,2019-08-05,RM005,Leeds,1
+CUST00046,Townsend Inc,SME,2021-02-18,RM009,Leeds,1
+CUST00047,Bruce-Smith,Corporate,2022-03-15,RM004,London,1
+CUST00048,"Jones, Powell and Wood",SME,2023-06-22,RM010,Edinburgh,1
+CUST00049,"Allen, Smith and Jones",Corporate,2020-04-16,RM004,London,1
+CUST00050,Bates-Glover,Corporate,2019-08-16,RM001,Manchester,1
+CUST00051,Nixon-Ali,Corporate,2023-06-01,RM006,London,1
+CUST00052,"Holloway, Lambert and Willis",Corporate,2022-01-11,RM008,Manchester,1
+CUST00053,Ahmed LLC,Corporate,2019-07-15,RM010,Edinburgh,1
+CUST00054,Smith and Sons,SME,2022-03-25,RM008,Leeds,1
+CUST00055,"Patterson, Oliver and White",Corporate,2023-01-23,RM002,Bristol,1
+CUST00056,Gardiner Inc,SME,2021-08-09,RM007,Leeds,1
+CUST00057,Mann-Davis,SME,2019-07-03,RM001,Bristol,1
+CUST00058,Bentley PLC,Corporate,2023-04-02,RM007,Bristol,1
+CUST00059,Morgan and Sons,SME,2019-02-07,RM002,Manchester,1
+CUST00060,Stevenson Group,Corporate,2022-07-11,RM009,Leeds,1
+CUST00061,Taylor Inc,Corporate,2021-03-23,RM003,Birmingham,1
+CUST00062,Lamb Group,SME,2022-03-11,RM002,Leeds,1
+CUST00063,Bennett-Thornton,Corporate,2023-04-23,RM009,London,1
+CUST00064,Davison-Andrews,Corporate,2019-05-14,RM004,Manchester,1
+CUST00065,"Adams, Jones and Barrett",SME,2020-11-13,RM008,Manchester,1
+CUST00066,Morgan PLC,SME,2023-04-06,RM003,Leeds,1
+CUST00067,"Freeman, Morris and George",Corporate,2021-05-27,RM005,Leeds,1
+CUST00068,"Jones, Bell and Hill",SME,2021-03-21,RM009,Bristol,1
+CUST00069,Hunt Inc,SME,2022-09-21,RM004,Birmingham,1
+CUST00070,Rees Inc,Corporate,2023-04-07,RM010,Bristol,1
+CUST00071,"Taylor, Ahmed and Howarth",Corporate,2019-05-26,RM006,London,1
+CUST00072,"Smith, Wright and Bibi",Corporate,2020-04-25,RM008,Edinburgh,1
+CUST00073,Moss-Armstrong,Corporate,2023-04-10,RM009,London,1
+CUST00074,Hudson-Martin,Corporate,2023-03-17,RM010,London,1
+CUST00075,"McLean, Phillips and Clarke",Corporate,2021-04-30,RM002,Edinburgh,1
+CUST00076,"Hodgson, Saunders and Mitchell",Corporate,2020-05-06,RM010,London,1
+CUST00077,Bailey PLC,Corporate,2021-03-29,RM010,Edinburgh,1
+CUST00078,"Turner, Ford and Dobson",SME,2022-02-16,RM004,Bristol,1
+CUST00079,Daniels-Stone,SME,2022-04-03,RM005,Leeds,1
+CUST00080,Shaw LLC,Corporate,2019-10-29,RM005,Leeds,1
+CUST00081,Tracy Williams-Dunn,Retail,2019-05-18,RM002,London,1
+CUST00082,Irene Robinson-Gough,Retail,2020-02-09,RM010,London,1
+CUST00083,"Bailey, Warren and Burns",SME,2020-07-29,RM004,Edinburgh,1
+CUST00084,Lee Singh,Retail,2022-11-06,RM006,London,1
+CUST00085,Pritchard Inc,SME,2021-07-09,RM005,Manchester,1
+CUST00086,Martyn Bryan-Bird,Retail,2020-07-18,RM005,Edinburgh,1
+CUST00087,Edwards and Sons,SME,2019-11-06,RM009,Birmingham,1
+CUST00088,"Thomson, Pritchard and Jones",SME,2022-11-02,RM005,London,1
+CUST00089,Green Group,SME,2019-06-06,RM009,Manchester,1
+CUST00090,Dr Daniel Harper,Retail,2022-01-04,RM010,Manchester,1
+CUST00091,Mr Stanley Robinson,Retail,2022-06-14,RM005,Edinburgh,1
+CUST00092,Melissa Fisher,Retail,2022-03-08,RM001,London,1
+CUST00093,Mrs Victoria Tucker,Retail,2022-01-15,RM001,London,1
+CUST00094,Keith Kaur-Lee,Retail,2019-04-08,RM003,Bristol,1
+CUST00095,Martyn Kennedy,Retail,2022-09-08,RM008,Edinburgh,1
+CUST00096,Nicola Brookes,Retail,2020-06-12,RM001,London,1
+CUST00097,Sutton and Sons,SME,2019-09-19,RM003,Edinburgh,1
+CUST00098,"Smith, Webb and Porter",SME,2021-07-09,RM010,Edinburgh,1
+CUST00099,Simpson-Morris,SME,2021-03-07,RM003,London,1
+CUST00100,Amanda Simpson,Retail,2021-07-19,RM001,Birmingham,1
+CUST00101,Wallace Inc,SME,2019-10-08,RM004,Bristol,1
+CUST00102,Pratt LLC,SME,2021-08-10,RM009,Leeds,1
+CUST00103,Roberts-Taylor,SME,2022-04-07,RM003,Manchester,1
+CUST00104,Mr Aaron Walsh,Retail,2023-06-15,RM003,Bristol,1
+CUST00105,Alexander Cooper-Thomas,Retail,2019-03-16,RM007,Bristol,1
+CUST00106,Morton-Warren,SME,2022-02-04,RM003,Bristol,1
+CUST00107,Stone-Perry,SME,2021-06-12,RM001,Leeds,1
+CUST00108,Wilson Ltd,SME,2022-06-22,RM008,Birmingham,1
+CUST00109,Suzanne Mills,Retail,2019-02-18,RM004,Manchester,1
+CUST00110,Morgan LLC,SME,2019-11-22,RM004,Leeds,1
+CUST00111,Dr Annette Robinson,Retail,2022-01-11,RM002,Birmingham,1
+CUST00112,Roger Singh,Retail,2019-12-30,RM009,Leeds,1
+CUST00113,Danielle Carpenter,Retail,2023-06-09,RM002,Birmingham,1
+CUST00114,Thomas-Anderson,SME,2020-05-02,RM005,London,1
+CUST00115,Briggs-Sinclair,SME,2020-03-31,RM007,Birmingham,1
+CUST00116,Conor Clark,Retail,2021-02-22,RM010,Edinburgh,1
+CUST00117,"Bates, Thomas and Williams",SME,2021-06-07,RM010,Manchester,1
+CUST00118,Max Holmes,Retail,2023-05-06,RM007,London,1
+CUST00119,"Pratt, Chapman and Williams",SME,2021-07-20,RM007,London,1
+CUST00120,Roger Johnson,Retail,2020-02-05,RM006,Bristol,1
+CUST00121,"Baker, Peters and Hodgson",SME,2019-07-22,RM005,Edinburgh,1
+CUST00122,Charlene Miles-Ahmed,Retail,2019-11-08,RM007,Birmingham,1
+CUST00123,Julia Clarke-Burton,Retail,2019-09-07,RM005,Edinburgh,1
+CUST00124,Davies-Poole,SME,2022-07-08,RM007,Bristol,1
+CUST00125,Glen Hodgson,Retail,2019-10-17,RM003,Edinburgh,1
+CUST00126,David Rogers,Retail,2021-04-25,RM009,London,1
+CUST00127,Alexandra Thornton,Retail,2021-12-25,RM004,Leeds,1
+CUST00128,Toby Stanley,Retail,2020-12-25,RM008,Leeds,1
+CUST00129,Williams-Dobson,SME,2020-09-22,RM008,Bristol,1
+CUST00130,James-Hunt,SME,2019-11-24,RM002,Birmingham,1
+CUST00131,Graham Slater-Abbott,Retail,2023-01-25,RM004,Bristol,1
+CUST00132,Elliott Bibi,Retail,2022-05-01,RM004,Manchester,1
+CUST00133,Summers and Sons,SME,2023-05-02,RM004,Leeds,1
+CUST00134,"Kemp, Forster and Kennedy",SME,2021-01-14,RM007,Bristol,1
+CUST00135,Smith Group,SME,2019-07-25,RM007,Leeds,1
+CUST00136,Alan Murphy,Retail,2022-03-23,RM003,Bristol,1
+CUST00137,"Allen, Edwards and Cooper",SME,2019-05-20,RM002,Leeds,1
+CUST00138,Smith-Lynch,SME,2022-08-09,RM009,Leeds,1
+CUST00139,Lawrence Inc,SME,2020-06-19,RM004,London,1
+CUST00140,Dr Jamie Jarvis,Retail,2022-11-04,RM008,Bristol,1
+CUST00141,Garry Hall-Bevan,Retail,2019-05-11,RM008,Edinburgh,1
+CUST00142,Mr Julian Browne,Retail,2020-07-08,RM008,Manchester,1
+CUST00143,Brett Hill,Retail,2021-01-25,RM005,Manchester,1
+CUST00144,Joel Stephens,Retail,2019-04-19,RM009,Leeds,1
+CUST00145,Osborne-Peters,SME,2022-01-19,RM008,London,1
+CUST00146,Allan Burke,Retail,2022-04-11,RM005,Birmingham,1
+CUST00147,Francis Bartlett,Retail,2020-07-24,RM002,Manchester,1
+CUST00148,"Taylor, Power and Mitchell",SME,2022-04-18,RM007,Bristol,1
+CUST00149,"White, Hobbs and Jones",SME,2019-08-19,RM004,London,1
+CUST00150,Valerie Williams,Retail,2021-04-22,RM006,Edinburgh,1
+CUST00151,Gareth Henry-Goodwin,Retail,2021-04-05,RM001,Manchester,1
+CUST00152,Simon Khan,Retail,2021-05-29,RM010,Bristol,1
+CUST00153,Cooper and Sons,SME,2019-04-20,RM010,Leeds,1
+CUST00154,Kenneth Collins-Miles,Retail,2023-07-23,RM006,Birmingham,1
+CUST00155,Donald Sanderson,Retail,2021-03-29,RM009,Bristol,1
+CUST00156,Lee Group,SME,2020-11-08,RM004,Birmingham,1
+CUST00157,Mr Gerard Palmer,Retail,2020-11-13,RM001,Leeds,1
+CUST00158,Stacey Burns,Retail,2019-11-04,RM007,Bristol,1
+CUST00159,Davis-Watson,SME,2020-12-20,RM003,Edinburgh,1
+CUST00160,Powell-Hunter,SME,2021-05-20,RM010,Edinburgh,1
+CUST00161,"Bartlett, Jones and Sharpe",SME,2023-02-14,RM007,Manchester,1
+CUST00162,Stephen McCarthy,Retail,2022-07-28,RM001,Birmingham,1
+CUST00163,Declan Roberts,Retail,2021-10-03,RM004,Leeds,1
+CUST00164,Jake Gray-Bell,Retail,2021-09-12,RM007,Birmingham,1
+CUST00165,Vincent Payne,Retail,2022-03-06,RM002,Leeds,1
+CUST00166,Wright-Adams,SME,2019-05-23,RM009,London,1
+CUST00167,Sian Rowe,Retail,2022-05-02,RM002,Bristol,1
+CUST00168,Clayton-Smith,SME,2019-05-13,RM001,Manchester,1
+CUST00169,Kelly-Mills,SME,2023-06-24,RM010,Manchester,1
+CUST00170,White-Watson,SME,2022-11-19,RM008,Bristol,1
+CUST00171,Smith-Reeves,SME,2020-06-05,RM004,Leeds,1
+CUST00172,Kayleigh Barnett,Retail,2019-04-17,RM006,Manchester,1
+CUST00173,Wilson-Rees,SME,2019-03-26,RM003,Birmingham,1
+CUST00174,"Thomas, Holland and Smith",SME,2020-05-06,RM001,Birmingham,1
+CUST00175,Mr Graeme Wyatt,Retail,2021-05-14,RM004,London,1
+CUST00176,Jones Inc,SME,2023-01-08,RM005,Bristol,1
+CUST00177,"May, Hall and Smith",SME,2019-02-16,RM010,London,1
+CUST00178,Ms Katy Jenkins,Retail,2020-08-08,RM007,Bristol,1
+CUST00179,Kevin Hobbs-O'Brien,Retail,2023-03-16,RM009,Bristol,1
+CUST00180,Michelle Whitehead-Murray,Retail,2023-07-10,RM007,Leeds,1
+CUST00181,"Davies, Hayward and Frost",SME,2021-02-28,RM006,Bristol,1
+CUST00182,Nigel Wallis-Marshall,Retail,2019-08-17,RM003,Leeds,1
+CUST00183,"Smith, Harrison and Atkins",SME,2019-06-24,RM009,Bristol,1
+CUST00184,Clifford Nelson,Retail,2020-02-20,RM009,Leeds,1
+CUST00185,Mr Kyle Kent,Retail,2021-02-23,RM010,Birmingham,1
+CUST00186,Jeffrey Rees,Retail,2022-03-20,RM002,Birmingham,1
+CUST00187,Ronald Brown,Retail,2022-03-23,RM008,Edinburgh,1
+CUST00188,Dr Michelle Williams,Retail,2021-09-15,RM001,Leeds,1
+CUST00189,Dr Carolyn Gould,Retail,2022-07-28,RM008,Manchester,1
+CUST00190,Amber Arnold,Retail,2019-02-13,RM005,Birmingham,1
+CUST00191,Cheryl Mann-Powell,Retail,2020-04-01,RM005,Edinburgh,1
+CUST00192,Hall-Mason,SME,2020-09-10,RM004,London,1
+CUST00193,"Phillips, Barton and Holden",SME,2019-07-22,RM007,Leeds,1
+CUST00194,White Group,SME,2019-09-20,RM008,Bristol,1
+CUST00195,Kate Pearce,Retail,2021-01-29,RM001,London,1
+CUST00196,Karl Holt,Retail,2022-05-08,RM007,Bristol,1
+CUST00197,Barton-Clayton,SME,2021-11-15,RM010,Birmingham,1
+CUST00198,Stacey Roberts,Retail,2020-06-27,RM009,Birmingham,1
+CUST00199,Miss Hilary Harrison,Retail,2019-05-30,RM009,Birmingham,1
+CUST00200,Ashleigh Boyle-Wells,Retail,2019-08-26,RM008,Birmingham,1
+CUST00201,Alice Atkinson,Retail,2022-03-08,RM004,London,1
+CUST00202,Duffy-Smith,SME,2021-10-27,RM002,Bristol,1
+CUST00203,Berry-Hughes,SME,2022-07-08,RM004,Bristol,1
+CUST00204,Mr Jordan Harris,Retail,2022-01-15,RM010,Edinburgh,1
+CUST00205,Ms Natasha Adams,Retail,2023-01-11,RM004,Birmingham,1
+CUST00206,Jones-Hill,SME,2021-07-26,RM003,Birmingham,1
+CUST00207,Turner-Walton,SME,2019-08-15,RM009,Manchester,1
+CUST00208,Dr Abigail Parkes,Retail,2023-05-03,RM001,Edinburgh,1
+CUST00209,Elizabeth Atkinson,Retail,2019-09-06,RM003,Bristol,1
+CUST00210,Mrs Sara Watson,Retail,2023-01-06,RM001,Edinburgh,1
+CUST00211,Colin Bates-Hicks,Retail,2020-12-16,RM008,Leeds,1
+CUST00212,Francesca Stewart-Whittaker,Retail,2022-07-23,RM001,Birmingham,1
+CUST00213,Carol Lee-Doyle,Retail,2022-12-14,RM002,Leeds,1
+CUST00214,Ms Kathleen Brown,Retail,2023-03-06,RM010,Bristol,1
+CUST00215,"Clarke, Thomas and Holloway",SME,2022-09-28,RM003,Edinburgh,1
+CUST00216,Geraldine Curtis-Dawson,Retail,2023-02-11,RM004,London,1
+CUST00217,Dr Lee Wong,Retail,2020-03-11,RM010,Edinburgh,1
+CUST00218,"Kirby, Jones and Cook",SME,2019-03-30,RM009,Leeds,1
+CUST00219,Hayley Singh,Retail,2021-02-09,RM005,Edinburgh,1
+CUST00220,Kevin Fuller,Retail,2021-11-17,RM010,Edinburgh,1
+CUST00221,Hughes-Mellor,SME,2020-03-04,RM002,Manchester,1
+CUST00222,"Collier, Burrows and Moore",SME,2022-02-09,RM002,Manchester,1
+CUST00223,Cunningham-Smith,SME,2022-08-14,RM009,London,1
+CUST00224,"Miller, Butler and James",SME,2023-07-30,RM007,Leeds,1
+CUST00225,Amber Palmer,Retail,2021-12-16,RM001,Manchester,1
+CUST00226,Kieran Taylor,Retail,2019-08-18,RM005,Bristol,1
+CUST00227,Miss Ruth Houghton,Retail,2023-03-12,RM004,Birmingham,1
+CUST00228,"Hunt, Gibson and Carter",SME,2021-03-17,RM002,Edinburgh,1
+CUST00229,"Kelly, Benson and Fraser",SME,2019-12-17,RM003,Birmingham,1
+CUST00230,Fisher and Sons,SME,2023-03-11,RM001,Manchester,1
+CUST00231,Hanson Ltd,SME,2020-04-03,RM010,Birmingham,1
+CUST00232,"Jones, Higgins and Barber",SME,2022-11-23,RM008,Bristol,1
+CUST00233,Campbell-Price,SME,2019-09-01,RM007,Birmingham,1
+CUST00234,"Barnes, Pritchard and James",SME,2021-02-19,RM002,Edinburgh,1
+CUST00235,Mohamed Roberts,Retail,2021-03-03,RM006,Edinburgh,1
+CUST00236,Field PLC,SME,2023-06-13,RM002,Manchester,1
+CUST00237,Josephine Bray,Retail,2019-04-21,RM005,Edinburgh,1
+CUST00238,Rachel Hammond-Thompson,Retail,2019-04-25,RM003,Leeds,1
+CUST00239,Wright-West,SME,2022-01-12,RM003,Edinburgh,1
+CUST00240,Williams-Jones,SME,2020-01-12,RM008,London,1
+CUST00241,Harrison-Hewitt,SME,2021-08-22,RM007,Birmingham,1
+CUST00242,"Powell, Williams and Anderson",SME,2019-11-01,RM002,Manchester,1
+CUST00243,Hunter-Butler,SME,2021-04-13,RM008,Birmingham,1
+CUST00244,Green Ltd,SME,2019-04-30,RM009,London,1
+CUST00245,"Fox, Brown and Miller",SME,2023-02-05,RM006,Birmingham,1
+CUST00246,Allen-Miller,SME,2022-12-10,RM007,Edinburgh,1
+CUST00247,Marie Reynolds,Retail,2019-11-27,RM009,Leeds,1
+CUST00248,Chadwick-Clayton,SME,2023-04-15,RM004,Edinburgh,1
+CUST00249,"Williams, Bradley and Morgan",SME,2020-02-06,RM008,Bristol,1
+CUST00250,Godfrey-Ross,SME,2019-05-01,RM001,Manchester,1
+CUST00251,"Webb, Walsh and Ali",SME,2020-07-06,RM003,Birmingham,1
+CUST00252,Barber-Harding,SME,2019-09-04,RM008,London,1
+CUST00253,Mr Julian Nicholson,Retail,2020-01-22,RM010,Manchester,1
+CUST00254,Georgia Clark-Clements,Retail,2021-11-06,RM009,London,1
+CUST00255,"Mason, Winter and Taylor",SME,2023-01-26,RM004,London,1
+CUST00256,Ali-Kay,SME,2022-12-07,RM003,Leeds,1
+CUST00257,Johnson-Morley,SME,2020-09-26,RM005,Leeds,1
+CUST00258,Carter-Martin,SME,2020-12-10,RM004,Leeds,1
+CUST00259,Gary Murray,Retail,2021-06-10,RM004,Edinburgh,1
+CUST00260,Damien Jones,Retail,2023-03-15,RM005,Leeds,1
+CUST00261,Simpson PLC,SME,2019-03-05,RM009,Birmingham,1
+CUST00262,Mr Owen Steele,Retail,2022-01-02,RM005,Edinburgh,1
+CUST00263,"Brown, Miles and Wilson",SME,2022-10-04,RM008,Edinburgh,1
+CUST00264,Hall Inc,SME,2021-08-28,RM006,Edinburgh,1
+CUST00265,"Lee, Morley and Edwards",SME,2021-01-14,RM006,Manchester,1
+CUST00266,Jay Robertson,Retail,2020-05-20,RM007,Manchester,1
+CUST00267,Robinson-Smith,SME,2023-05-07,RM006,Bristol,1
+CUST00268,"Daly, Bates and Foster",SME,2019-08-21,RM007,Leeds,1
+CUST00269,Joseph Taylor-White,Retail,2020-10-24,RM001,Manchester,1
+CUST00270,Cook-Greenwood,SME,2023-01-11,RM008,London,1
+CUST00271,Perry-Bird,SME,2023-07-04,RM003,Leeds,1
+CUST00272,Francesca Jackson-Knowles,Retail,2023-03-04,RM008,Birmingham,1
+CUST00273,Williams Group,SME,2020-02-05,RM007,Bristol,1
+CUST00274,Miss Julia Miller,Retail,2021-10-01,RM009,Leeds,1
+CUST00275,Murphy-Storey,SME,2020-01-29,RM008,Edinburgh,1
+CUST00276,Geraldine Smith,Retail,2020-02-17,RM002,Manchester,1
+CUST00277,Barnes-Russell,SME,2022-04-26,RM002,Leeds,1
+CUST00278,Katherine Morris,Retail,2019-04-30,RM002,Leeds,1
+CUST00279,Karl Cooper-Adams,Retail,2019-09-13,RM005,London,1
+CUST00280,Mr Louis Arnold,Retail,2021-10-09,RM001,Birmingham,1
+CUST00281,Kerr PLC,SME,2021-06-28,RM007,Manchester,1
+CUST00282,Mrs Beverley Spencer,Retail,2020-08-12,RM007,Edinburgh,1
+CUST00283,Thomas Wood,Retail,2022-08-21,RM003,London,1
+CUST00284,Carr-Morgan,SME,2020-02-12,RM004,Leeds,1
+CUST00285,Marie Porter,Retail,2022-04-16,RM008,Bristol,1
+CUST00286,Cook-Marshall,SME,2021-01-05,RM005,Bristol,1
+CUST00287,Simon Barton,Retail,2020-12-25,RM005,Bristol,1
+CUST00288,Dr Sam Johnson,Retail,2023-03-06,RM008,Birmingham,1
+CUST00289,Carr-Fowler,SME,2020-01-04,RM007,Bristol,1
+CUST00290,Henry Ltd,SME,2021-01-11,RM005,Manchester,1
+CUST00291,Turner-Morris,SME,2020-11-18,RM002,Manchester,1
+CUST00292,Stewart-Carter,SME,2020-05-20,RM006,Edinburgh,1
+CUST00293,"Carr, Williams and Faulkner",SME,2019-09-02,RM005,London,1
+CUST00294,Thomas Inc,SME,2022-01-19,RM001,Edinburgh,1
+CUST00295,Eleanor Patel-Lane,Retail,2020-03-11,RM008,Birmingham,1
+CUST00296,Russell Armstrong,Retail,2020-03-09,RM006,Manchester,1
+CUST00297,Mr Graham Jarvis,Retail,2020-02-10,RM005,Bristol,1
+CUST00298,Karl Bibi,Retail,2020-01-26,RM002,Bristol,1
+CUST00299,Rachael Walker,Retail,2021-11-10,RM008,London,1
+CUST00300,Barnes Ltd,SME,2019-06-27,RM003,London,1
+CUST00301,Nicholls-King,SME,2021-10-04,RM007,Manchester,1
+CUST00302,Dr Gareth Davies,Retail,2022-11-07,RM009,Birmingham,1
+CUST00303,Ford LLC,SME,2022-09-02,RM005,Leeds,1
+CUST00304,"Burns, Hunt and Marshall",SME,2019-05-29,RM006,London,1
+CUST00305,Brady-Ryan,SME,2023-03-03,RM003,Manchester,1
+CUST00306,Davis-Dean,SME,2020-06-19,RM006,London,1
+CUST00307,Bradshaw-Allen,SME,2023-07-07,RM005,Edinburgh,1
+CUST00308,Sean Brown-Burke,Retail,2021-01-15,RM006,Bristol,1
+CUST00309,Robertson-Armstrong,SME,2020-04-24,RM007,Bristol,1
+CUST00310,"Marsh, Simpson and Walker",SME,2022-12-26,RM004,Leeds,1
+CUST00311,Frederick Lee-Cooke,Retail,2020-02-13,RM009,Birmingham,1
+CUST00312,Mr Leon Roberts,Retail,2019-12-17,RM002,Bristol,1
+CUST00313,Woods PLC,SME,2019-08-30,RM005,Bristol,1
+CUST00314,Davies-Atkinson,SME,2022-12-09,RM003,London,1
+CUST00315,Maurice Bull,Retail,2021-11-19,RM008,London,1
+CUST00316,Anthony Cooke,Retail,2022-04-11,RM009,Manchester,1
+CUST00317,"Thomas, Pearson and Rhodes",SME,2021-01-17,RM006,Bristol,1
+CUST00318,Hope-Green,SME,2020-04-19,RM003,Leeds,1
+CUST00319,Maureen Morris-Jarvis,Retail,2020-11-05,RM010,Leeds,1
+CUST00320,Fitzgerald LLC,SME,2023-05-29,RM006,Manchester,1
+CUST00321,"Knight, Sharpe and O'Brien",SME,2021-02-05,RM004,Birmingham,1
+CUST00322,Dr Sean Morris,Retail,2019-09-30,RM006,Edinburgh,1
+CUST00323,Roberts-Jones,SME,2023-04-02,RM007,Birmingham,1
+CUST00324,Rachel Mitchell,Retail,2022-11-27,RM008,London,1
+CUST00325,Annette Wood,Retail,2019-12-29,RM010,London,1
+CUST00326,Miss Joanne Pearson,Retail,2019-03-07,RM006,Manchester,1
+CUST00327,Holly Wilkinson,Retail,2019-03-07,RM010,Manchester,1
+CUST00328,Jeffrey Davies,Retail,2019-04-20,RM009,Manchester,1
+CUST00329,Wayne Jackson,Retail,2022-04-14,RM006,Manchester,1
+CUST00330,Dr Alexander Davies,Retail,2022-01-14,RM003,Manchester,1
+CUST00331,Jennings-Young,SME,2019-02-11,RM003,London,1
+CUST00332,Ben Austin,Retail,2022-11-08,RM001,Birmingham,1
+CUST00333,Josephine Collins,Retail,2020-04-16,RM006,London,1
+CUST00334,Dr Bruce Atkins,Retail,2022-02-07,RM001,Manchester,1
+CUST00335,Clark-Thomas,SME,2020-08-22,RM002,Bristol,1
+CUST00336,Kathleen Turner,Retail,2020-12-02,RM008,Birmingham,1
+CUST00337,Sophie Henry,Retail,2021-01-21,RM009,Manchester,1
+CUST00338,Joseph McCarthy,Retail,2019-07-07,RM009,Birmingham,1
+CUST00339,Davies-Reid,SME,2019-12-26,RM001,London,1
+CUST00340,"Burton, Cox and Nash",SME,2021-05-04,RM007,Bristol,1
+CUST00341,Mrs Grace Richards,Retail,2020-11-03,RM008,London,1
+CUST00342,Christine Marshall-Brennan,Retail,2021-10-14,RM010,Manchester,1
+CUST00343,Terence Davis,Retail,2022-11-19,RM005,Edinburgh,1
+CUST00344,Robinson LLC,SME,2021-06-15,RM010,Edinburgh,1
+CUST00345,"Poole, Berry and Long",SME,2021-01-17,RM009,Edinburgh,1
+CUST00346,Barrett-Blake,SME,2023-01-13,RM002,Bristol,1
+CUST00347,Dr Jordan Adams,Retail,2021-03-07,RM008,Manchester,1
+CUST00348,"Dawson, Coates and Bentley",SME,2021-09-09,RM008,Leeds,1
+CUST00349,Smith-Harvey,SME,2019-07-02,RM002,Birmingham,1
+CUST00350,"Martin, Burke and Naylor",SME,2021-11-02,RM005,Birmingham,1
+CUST00351,Raymond Bradley,Retail,2019-09-28,RM008,London,1
+CUST00352,Maria Russell,Retail,2023-02-11,RM002,Leeds,1
+CUST00353,Mr Ashley Taylor,Retail,2019-06-02,RM006,Manchester,1
+CUST00354,Emily Henderson,Retail,2020-04-20,RM009,Edinburgh,1
+CUST00355,Griffiths Inc,SME,2019-11-01,RM002,Leeds,1
+CUST00356,Brown and Sons,SME,2019-11-11,RM007,Bristol,1
+CUST00357,Shaun Brown,Retail,2021-12-23,RM010,Birmingham,1
+CUST00358,Barnett-Cox,SME,2023-01-04,RM010,Edinburgh,1
+CUST00359,Kevin Morris,Retail,2022-09-22,RM008,Manchester,1
+CUST00360,Francis Hobbs,Retail,2021-08-17,RM009,Birmingham,1
+CUST00361,Bryan Griffiths,Retail,2019-04-26,RM005,Edinburgh,1
+CUST00362,Jamie Harding,Retail,2021-03-09,RM009,Edinburgh,1
+CUST00363,Lydia Bishop,Retail,2020-03-05,RM005,London,1
+CUST00364,Danny Robson,Retail,2022-01-22,RM005,Birmingham,1
+CUST00365,Watkins Group,SME,2023-07-23,RM003,Manchester,1
+CUST00366,Vincent-Jones,SME,2023-03-15,RM003,Bristol,1
+CUST00367,Alan Sutton,Retail,2023-01-29,RM009,Manchester,1
+CUST00368,Jenkins-Collins,SME,2021-03-28,RM008,Birmingham,1
+CUST00369,Dorothy Parkinson-Parry,Retail,2021-07-08,RM005,Bristol,1
+CUST00370,Palmer-Anderson,SME,2019-03-28,RM010,Edinburgh,1
+CUST00371,Carole Lowe-Sykes,Retail,2023-04-19,RM003,Manchester,1
+CUST00372,Mr Toby Horton,Retail,2019-10-24,RM002,Birmingham,1
+CUST00373,"Atkinson, Stevens and Price",SME,2019-11-18,RM007,Leeds,1
+CUST00374,Ali Group,SME,2021-04-08,RM005,Manchester,1
+CUST00375,Dr Sophie Webster,Retail,2021-08-28,RM007,London,1
+CUST00376,King-Patel,SME,2019-10-16,RM010,Leeds,1
+CUST00377,Holmes Group,SME,2023-05-03,RM004,Leeds,1
+CUST00378,Joanne Lee,Retail,2023-07-20,RM004,Birmingham,1
+CUST00379,Alexandra Glover,Retail,2019-04-16,RM003,Birmingham,1
+CUST00380,"Patel, Clarke and Howard",SME,2021-10-02,RM002,London,1
+CUST00381,"Moore, Davies and Ali",SME,2019-05-28,RM007,Manchester,1
+CUST00382,Dr Richard Morgan,Retail,2021-06-17,RM009,Bristol,1
+CUST00383,Dean Parsons,Retail,2020-10-14,RM009,Bristol,1
+CUST00384,"O'Sullivan, Nash and Jones",SME,2023-03-10,RM007,Bristol,1
+CUST00385,Mr Clive Brady,Retail,2021-02-22,RM001,Leeds,1
+CUST00386,Mrs Olivia Allen,Retail,2021-11-01,RM010,Leeds,1
+CUST00387,Brady-Simpson,SME,2019-08-12,RM007,Birmingham,1
+CUST00388,Mr Leon Murray,Retail,2021-04-27,RM001,Birmingham,1
+CUST00389,Dr Stephen Gardner,Retail,2019-02-05,RM010,Leeds,1
+CUST00390,"Carter, Woodward and Dodd",SME,2023-02-05,RM007,London,1
+CUST00391,Rachel Sullivan,Retail,2021-02-23,RM010,Leeds,1
+CUST00392,Mrs Rachel Cox,Retail,2021-05-16,RM005,Bristol,1
+CUST00393,Green PLC,SME,2022-05-08,RM006,Manchester,1
+CUST00394,Paige Burton,Retail,2020-09-23,RM002,Edinburgh,1
+CUST00395,Ms Sheila Webster,Retail,2019-03-29,RM006,Birmingham,1
+CUST00396,Mrs Margaret Bryan,Retail,2022-04-08,RM002,Manchester,1
+CUST00397,"Parker, Reeves and Williams",SME,2022-06-26,RM003,Edinburgh,1
+CUST00398,Dr Katy Williams,Retail,2019-05-01,RM002,Manchester,1
+CUST00399,Stevens-Lewis,SME,2020-12-27,RM010,Edinburgh,1
+CUST00400,Sykes-Abbott,SME,2019-10-10,RM010,Bristol,1
+CUST00401,"Wright, Hill and Herbert",SME,2020-01-28,RM006,Manchester,1
+CUST00402,Byrne PLC,SME,2023-03-18,RM008,Leeds,1
+CUST00403,Bailey LLC,SME,2019-02-16,RM005,Edinburgh,1
+CUST00404,Diane Miller,Retail,2021-08-14,RM009,London,1
+CUST00405,Mills-Bailey,SME,2021-01-01,RM008,London,1
+CUST00406,Robin Jarvis-Palmer,Retail,2021-07-10,RM005,London,1
+CUST00407,Geoffrey Knight-Lee,Retail,2020-02-22,RM010,Edinburgh,1
+CUST00408,Hammond-Taylor,SME,2020-12-30,RM010,Edinburgh,1
+CUST00409,Marion Brown,Retail,2021-01-25,RM010,Bristol,1
+CUST00410,Sally Allen,Retail,2021-10-15,RM010,Leeds,1
+CUST00411,Reece Ellis,Retail,2023-03-31,RM008,London,1
+CUST00412,Harris-Gibbons,SME,2019-08-03,RM002,Edinburgh,1
+CUST00413,Ms Rosie Nicholls,Retail,2023-05-16,RM004,Bristol,1
+CUST00414,"Bell, Nicholson and Watts",SME,2021-02-16,RM009,Edinburgh,1
+CUST00415,Marion Fox,Retail,2021-07-20,RM006,Birmingham,1
+CUST00416,"Ferguson, Taylor and Morris",SME,2021-04-19,RM006,Bristol,1
+CUST00417,Zoe Marsh,Retail,2019-03-02,RM006,London,1
+CUST00418,Dennis Inc,SME,2023-01-23,RM009,Bristol,1
+CUST00419,"Bond, Howe and Stone",SME,2021-12-31,RM005,Bristol,1
+CUST00420,Brandon Sharp-Smith,Retail,2021-09-21,RM002,Edinburgh,1
+CUST00421,Pamela Chapman,Retail,2021-08-18,RM005,Bristol,1
+CUST00422,"Gould, Carter and Tucker",SME,2022-11-13,RM010,Bristol,1
+CUST00423,Dr Dale Mitchell,Retail,2021-11-08,RM009,Leeds,1
+CUST00424,"Patterson, Bennett and Armstrong",SME,2022-11-16,RM009,London,1
+CUST00425,"Fleming, Stanley and Coates",SME,2020-09-27,RM006,London,1
+CUST00426,Hayes-Townsend,SME,2021-11-10,RM003,Manchester,1
+CUST00427,Mistry-Roberts,SME,2019-04-18,RM008,Manchester,1
+CUST00428,Matthew Parsons,Retail,2022-10-27,RM003,London,1
+CUST00429,Kemp Group,SME,2019-03-04,RM002,Edinburgh,1
+CUST00430,Jacqueline Connolly,Retail,2019-11-18,RM006,Edinburgh,1
+CUST00431,Lisa Berry-Stewart,Retail,2020-03-29,RM007,Manchester,1
+CUST00432,Cheryl Wright,Retail,2022-07-30,RM010,Manchester,1
+CUST00433,Hall-Naylor,SME,2023-05-07,RM007,Birmingham,1
+CUST00434,Mr Eric Walker,Retail,2021-02-06,RM010,Birmingham,1
+CUST00435,"Riley, Storey and Jones",SME,2022-04-12,RM009,Manchester,1
+CUST00436,Andrews Group,SME,2019-03-12,RM008,Manchester,1
+CUST00437,Barker LLC,SME,2019-10-15,RM010,Leeds,1
+CUST00438,"Short, Willis and Thomas",SME,2019-04-12,RM005,Leeds,1
+CUST00439,"Williams, Williams and Norris",SME,2022-09-07,RM004,Edinburgh,1
+CUST00440,Shannon Patel,Retail,2022-03-10,RM001,Bristol,1
+CUST00441,Cooper-Russell,SME,2021-07-05,RM009,London,1
+CUST00442,Clifford Barnett,Retail,2021-12-29,RM002,Manchester,1
+CUST00443,"Miah, Collins and Green",SME,2021-01-26,RM009,Manchester,1
+CUST00444,"Cooper, Smith and Barton",SME,2023-01-29,RM004,Leeds,1
+CUST00445,"Wong, Shepherd and Jackson",SME,2023-06-11,RM007,London,1
+CUST00446,Bell LLC,SME,2020-10-10,RM006,Manchester,1
+CUST00447,"Harrison, Gilbert and Wright",SME,2023-02-18,RM006,Manchester,1
+CUST00448,Denise Moore,Retail,2021-10-21,RM002,Bristol,1
+CUST00449,"James, Bradley and Davies",SME,2019-02-26,RM003,Manchester,1
+CUST00450,Mr Brandon Davies,Retail,2021-12-25,RM008,Bristol,1
+CUST00451,Jeremy Brown,Retail,2019-05-03,RM008,Leeds,1
+CUST00452,Katie Watson-Cook,Retail,2023-02-23,RM001,Birmingham,1
+CUST00453,Dr Lewis Wilson,Retail,2022-10-02,RM009,Bristol,1
+CUST00454,Nash LLC,SME,2022-12-20,RM005,Manchester,1
+CUST00455,Buckley PLC,SME,2022-11-28,RM001,Manchester,1
+CUST00456,"Young, Thomas and Holt",SME,2020-01-04,RM010,Leeds,1
+CUST00457,Mr Joel Patel,Retail,2022-12-20,RM008,Edinburgh,1
+CUST00458,Katie Holden,Retail,2020-01-18,RM009,Edinburgh,1
+CUST00459,Mr Gerald Thomas,Retail,2019-07-25,RM003,Birmingham,1
+CUST00460,Davies-Smith,SME,2023-08-01,RM010,Birmingham,1
+CUST00461,Stewart Kirby,Retail,2020-05-23,RM007,Manchester,1
+CUST00462,Francis Barnes-Smith,Retail,2020-08-27,RM006,London,1
+CUST00463,Dr Lewis Chan,Retail,2021-05-27,RM008,London,1
+CUST00464,"Robinson, Hall and Bird",SME,2021-07-01,RM005,Bristol,1
+CUST00465,Dr Amanda Warren,Retail,2021-08-03,RM002,Birmingham,1
+CUST00466,Mr Malcolm Barnett,Retail,2019-06-25,RM002,Edinburgh,1
+CUST00467,Cameron-Naylor,SME,2022-11-04,RM001,Birmingham,1
+CUST00468,Ellis PLC,SME,2019-12-27,RM003,Bristol,1
+CUST00469,Kirby and Sons,SME,2019-09-10,RM008,Bristol,1
+CUST00470,Kimberley Howe-Kennedy,Retail,2022-11-01,RM002,Bristol,1
+CUST00471,Green-Walker,SME,2023-05-21,RM005,Manchester,1
+CUST00472,Dr Clive Begum,Retail,2019-02-26,RM004,London,1
+CUST00473,Manning-Knight,SME,2021-11-07,RM009,Leeds,1
+CUST00474,Cooper Inc,SME,2022-03-04,RM001,Bristol,1
+CUST00475,Ms Lauren Newton,Retail,2021-12-27,RM006,London,1
+CUST00476,Bryant Ltd,SME,2022-01-22,RM002,Birmingham,1
+CUST00477,James-Khan,SME,2021-05-07,RM008,Leeds,1
+CUST00478,Bell-Jones,SME,2022-07-18,RM008,Bristol,1
+CUST00479,Reed Group,SME,2021-07-13,RM009,Birmingham,1
+CUST00480,Mohammad Burgess,Retail,2019-07-07,RM007,London,1
+CUST00481,Brown and Sons,SME,2020-03-19,RM003,Edinburgh,1
+CUST00482,Parry Ltd,SME,2021-10-16,RM002,London,1
+CUST00483,"Hill, Griffiths and Barber",SME,2019-11-20,RM005,Birmingham,1
+CUST00484,Blake-Smith,SME,2020-03-18,RM007,Manchester,1
+CUST00485,"James, Murphy and Griffiths",SME,2021-08-15,RM008,London,1
+CUST00486,Anderson-Brown,SME,2020-02-22,RM007,Birmingham,1
+CUST00487,Gerard Smith,Retail,2023-03-04,RM007,Birmingham,1
+CUST00488,Donna Mahmood,Retail,2023-06-02,RM003,Edinburgh,1
+CUST00489,"Parsons, Tyler and Kay",SME,2023-05-25,RM003,London,1
+CUST00490,Luke Norris,Retail,2019-03-24,RM006,Birmingham,1
+CUST00491,Townsend-Carey,SME,2020-05-30,RM001,Edinburgh,1
+CUST00492,Howard Naylor,Retail,2019-10-14,RM008,Birmingham,1
+CUST00493,Wong-Thomas,SME,2021-02-06,RM002,Edinburgh,1
+CUST00494,Miss Hayley Morris,Retail,2020-08-15,RM006,Leeds,1
+CUST00495,Pearson-Ward,SME,2019-12-13,RM005,Manchester,1
+CUST00496,Hugh Johnson-Vaughan,Retail,2023-06-12,RM003,Leeds,1
+CUST00497,"Peacock, Browne and Parsons",SME,2020-06-10,RM002,Birmingham,1
+CUST00498,Bradley-Jarvis,SME,2019-08-24,RM008,Manchester,1
+CUST00499,"Hall, Booth and Mistry",SME,2019-09-13,RM008,Manchester,1
+CUST00500,Mr Ryan Edwards,Retail,2022-10-31,RM002,Leeds,1
+CUST00501,Jack Harris,Retail,2019-08-05,RM008,London,1
+CUST00502,James Inc,SME,2019-11-06,RM006,Bristol,1
+CUST00503,Miss Molly Matthews,Retail,2020-07-04,RM009,Birmingham,1
+CUST00504,"Jones, Sims and Willis",SME,2022-09-16,RM003,Birmingham,1
+CUST00505,Eleanor Taylor-Parker,Retail,2022-11-29,RM004,Manchester,1
+CUST00506,Roger Robertson,Retail,2019-02-28,RM008,London,1
+CUST00507,Williams-Matthews,SME,2020-06-26,RM010,Birmingham,1
+CUST00508,Lawrence-Cooper,SME,2019-02-01,RM009,Manchester,1
+CUST00509,Rachael Marshall,Retail,2023-03-23,RM005,Leeds,1
+CUST00510,Bennett-Reynolds,SME,2020-08-23,RM007,Leeds,1
+CUST00511,Mr Phillip Ferguson,Retail,2022-11-21,RM006,Bristol,1
+CUST00512,George Kaur,Retail,2021-01-25,RM008,Bristol,1
+CUST00513,Webb-Mills,SME,2022-11-15,RM009,Bristol,1
+CUST00514,Natasha Williams-Edwards,Retail,2019-04-15,RM003,Leeds,1
+CUST00515,Beth Williams,Retail,2022-11-23,RM009,Manchester,1
+CUST00516,Thomas-Taylor,SME,2022-09-01,RM003,Birmingham,1
+CUST00517,Dr Valerie Dawson,Retail,2021-08-26,RM009,Birmingham,1
+CUST00518,Mr Ian Davies,Retail,2022-03-09,RM004,Bristol,1
+CUST00519,Evans-Roberts,SME,2022-11-21,RM005,Edinburgh,1
+CUST00520,Jason Watson,Retail,2020-10-09,RM003,Edinburgh,1
+CUST00521,Katy Davies,Retail,2022-08-19,RM010,Bristol,1
+CUST00522,Howells-Rice,SME,2020-06-06,RM001,London,1
+CUST00523,Dr Jeremy Cooper,Retail,2023-05-03,RM010,Birmingham,1
+CUST00524,Andrew Butler,Retail,2019-04-17,RM010,Leeds,1
+CUST00525,Eric Wells,Retail,2020-10-19,RM009,Birmingham,1
+CUST00526,Williams-Hamilton,SME,2020-11-18,RM004,Bristol,1
+CUST00527,Hill Group,SME,2021-12-03,RM008,London,1
+CUST00528,Miss Catherine Hunt,Retail,2022-09-15,RM008,Leeds,1
+CUST00529,Newman Group,SME,2020-12-26,RM004,Birmingham,1
+CUST00530,Gordon Johnston,Retail,2021-11-02,RM006,Bristol,1
+CUST00531,Smith LLC,SME,2021-05-10,RM003,Birmingham,1
+CUST00532,Francis Stevens-Blackburn,Retail,2021-10-20,RM004,Leeds,1
+CUST00533,Duncan Thorpe-Kirk,Retail,2022-02-03,RM008,Manchester,1
+CUST00534,Kimberley Lord,Retail,2023-01-18,RM001,Birmingham,1
+CUST00535,"Williams, Nicholson and Richardson",SME,2020-02-21,RM007,Manchester,1
+CUST00536,Dr Brett Ward,Retail,2021-10-03,RM010,Bristol,1
+CUST00537,Walton LLC,SME,2022-07-12,RM003,Leeds,1
+CUST00538,Barton-Ellis,SME,2020-10-17,RM005,Leeds,1
+CUST00539,Stanley Coleman-Evans,Retail,2023-02-01,RM007,Edinburgh,1
+CUST00540,O'Neill and Sons,SME,2022-03-29,RM004,Edinburgh,1
+CUST00541,Smith Group,SME,2023-04-27,RM001,Birmingham,1
+CUST00542,Evans PLC,SME,2020-03-29,RM008,Birmingham,1
+CUST00543,Dr Julia Clarke,Retail,2022-12-27,RM007,Manchester,1
+CUST00544,Collins Group,SME,2019-07-07,RM006,Leeds,1
+CUST00545,"Edwards, Carey and Hilton",SME,2023-05-04,RM007,London,1
+CUST00546,Mr Philip Page,Retail,2021-07-23,RM009,Birmingham,1
+CUST00547,Alan Power,Retail,2021-06-04,RM009,Leeds,1
+CUST00548,"Weston, Clarke and Norton",SME,2020-02-05,RM010,London,1
+CUST00549,Stanley Fox,Retail,2023-01-18,RM007,Birmingham,1
+CUST00550,Williams Inc,SME,2020-06-18,RM006,Manchester,1
+CUST00551,Mr Garry Gould,Retail,2020-03-19,RM009,Leeds,1
+CUST00552,Amanda Stanley,Retail,2023-05-04,RM001,Manchester,1
+CUST00553,"Wilson, May and Reynolds",SME,2020-12-07,RM009,Leeds,1
+CUST00554,Hannah Smith-Woods,Retail,2020-03-11,RM009,Manchester,1
+CUST00555,"Robertson, Johnson and Flynn",SME,2020-02-26,RM006,Manchester,1
+CUST00556,Kerr and Sons,SME,2020-02-19,RM005,Edinburgh,1
+CUST00557,"Howarth, Nash and Slater",SME,2020-09-30,RM009,Edinburgh,1
+CUST00558,"Poole, Haynes and Bennett",SME,2019-08-14,RM010,Birmingham,1
+CUST00559,Mason Inc,SME,2023-07-01,RM006,Birmingham,1
+CUST00560,Gemma Wells,Retail,2021-04-03,RM010,Birmingham,1
+CUST00561,Dr Victor Kelly,Retail,2020-03-30,RM008,Birmingham,1
+CUST00562,Gavin Richards,Retail,2019-07-19,RM001,Edinburgh,1
+CUST00563,Stephenson Ltd,SME,2022-08-20,RM009,Bristol,1
+CUST00564,"Harris, Andrews and Jones",SME,2022-10-06,RM004,London,1
+CUST00565,Dr Kieran Price,Retail,2022-07-10,RM001,Leeds,1
+CUST00566,"Howard, Williams and Jones",SME,2021-03-30,RM003,Leeds,1
+CUST00567,Kerry Jenkins,Retail,2021-04-16,RM009,Edinburgh,1
+CUST00568,Taylor-Newton,SME,2019-06-20,RM001,Bristol,1
+CUST00569,Dr Marc Clarke,Retail,2020-09-06,RM004,Edinburgh,1
+CUST00570,Lewis-Whitehouse,SME,2019-11-17,RM008,Edinburgh,1
+CUST00571,Hall LLC,SME,2021-10-31,RM003,Leeds,1
+CUST00572,Smith-Glover,SME,2020-07-12,RM006,Bristol,1
+CUST00573,Harding-Taylor,SME,2020-03-03,RM008,Manchester,1
+CUST00574,Ms Tracy Bradley,Retail,2022-01-10,RM009,Birmingham,1
+CUST00575,Charles Barrett,Retail,2021-12-03,RM005,Bristol,1
+CUST00576,Rachael Turner,Retail,2019-09-21,RM008,Birmingham,1
+CUST00577,Morley-Herbert,SME,2021-08-20,RM009,Bristol,1
+CUST00578,Green Group,SME,2021-12-23,RM002,Edinburgh,1
+CUST00579,"Murphy, Smith and Jackson",SME,2021-05-18,RM006,Manchester,1
+CUST00580,Bentley Group,SME,2023-05-10,RM005,Bristol,1
+CUST00581,Toby Davies,Retail,2021-08-25,RM008,Bristol,1
+CUST00582,Wilkinson-Baker,SME,2019-05-27,RM008,Manchester,1
+CUST00583,Ms Holly Wood,Retail,2020-07-27,RM005,Edinburgh,1
+CUST00584,Owen-Matthews,SME,2022-10-27,RM002,Edinburgh,1
+CUST00585,Leonard Chamberlain,Retail,2022-03-26,RM001,Bristol,1
+CUST00586,Gareth Ford,Retail,2020-01-06,RM004,London,1
+CUST00587,Eric Miller,Retail,2021-04-10,RM006,Bristol,1
+CUST00588,Mason-Johnson,SME,2023-01-11,RM003,London,1
+CUST00589,Darren Clarke,Retail,2021-04-23,RM008,Leeds,1
+CUST00590,Lynn Patel,Retail,2019-05-09,RM005,Birmingham,1
+CUST00591,Bevan-Owen,SME,2019-12-21,RM001,London,1
+CUST00592,Sandra Foster,Retail,2020-08-04,RM001,Manchester,1
+CUST00593,Knight-Thomas,SME,2022-08-09,RM001,Leeds,1
+CUST00594,Edwards Group,SME,2022-07-19,RM005,London,1
+CUST00595,Julian Bray,Retail,2021-12-01,RM010,Edinburgh,1
+CUST00596,Brian Mills,Retail,2021-09-17,RM005,Leeds,1
+CUST00597,"Newton, Leach and Richards",SME,2022-11-03,RM009,Leeds,1
+CUST00598,Wright-O'Sullivan,SME,2022-07-06,RM002,Birmingham,1
+CUST00599,Vincent Jones,Retail,2019-06-29,RM008,Bristol,1
+CUST00600,"Hodgson, Sharp and Chan",SME,2019-07-25,RM003,London,1
+CUST00601,"Griffiths, Fletcher and Brookes",SME,2019-02-27,RM005,Edinburgh,1
+CUST00602,Leigh Johnson-Anderson,Retail,2022-08-10,RM010,Bristol,1
+CUST00603,Morgan-Gill,SME,2021-03-12,RM009,Birmingham,1
+CUST00604,Mr Richard Jackson,Retail,2021-05-06,RM002,Manchester,1
+CUST00605,Marian Johnson,Retail,2020-11-30,RM006,Manchester,1
+CUST00606,Karl Kennedy,Retail,2022-02-16,RM007,Manchester,1
+CUST00607,"Smith, Allen and Harrison",SME,2019-05-14,RM005,Birmingham,1
+CUST00608,Brown LLC,SME,2020-04-29,RM010,London,1
+CUST00609,Hayes-Marshall,SME,2019-12-05,RM006,Bristol,1
+CUST00610,Dr Emma Cole,Retail,2023-03-30,RM002,Leeds,1
+CUST00611,"Martin, Rose and Adams",SME,2022-09-11,RM007,Bristol,1
+CUST00612,"Patel, Andrews and Nicholls",SME,2019-09-21,RM002,Bristol,1
+CUST00613,"Ward, Nixon and Clements",SME,2021-07-13,RM010,Manchester,1
+CUST00614,Maurice Graham-Faulkner,Retail,2022-11-04,RM008,Manchester,1
+CUST00615,"Jones, Andrews and White",SME,2019-05-26,RM010,Birmingham,1
+CUST00616,Wilson-Page,SME,2019-08-28,RM009,Leeds,1
+CUST00617,Dawn Cole-Marshall,Retail,2019-04-27,RM004,Bristol,1
+CUST00618,Sam Jones,Retail,2020-08-23,RM008,Edinburgh,1
+CUST00619,"McDonald, James and Robertson",SME,2023-02-26,RM010,London,1
+CUST00620,Jemma Davies,Retail,2020-07-09,RM009,Manchester,1
+CUST00621,Dr Debra Watson,Retail,2022-09-02,RM006,Edinburgh,1
+CUST00622,Harris LLC,SME,2022-12-09,RM004,Bristol,1
+CUST00623,"Hooper, Bennett and Lynch",SME,2023-01-30,RM009,Leeds,1
+CUST00624,Shane Stevens-Finch,Retail,2021-01-18,RM003,Edinburgh,1
+CUST00625,Begum-Booth,SME,2021-01-11,RM010,London,1
+CUST00626,Griffiths Ltd,SME,2019-10-27,RM005,Bristol,1
+CUST00627,Trevor Smith,Retail,2021-05-16,RM005,London,1
+CUST00628,Arthur Wilson,Retail,2020-05-07,RM002,London,1
+CUST00629,Barnett Group,SME,2021-08-29,RM002,Edinburgh,1
+CUST00630,Dr Carol Davies,Retail,2023-03-16,RM008,London,1
+CUST00631,Burgess PLC,SME,2021-04-19,RM003,Manchester,1
+CUST00632,Rowley Group,SME,2021-06-29,RM007,Leeds,1
+CUST00633,Horton-Davey,SME,2021-06-26,RM002,Bristol,1
+CUST00634,Georgia Hussain-Howard,Retail,2019-12-05,RM006,London,1
+CUST00635,Mr Victor Allen,Retail,2020-07-30,RM007,Edinburgh,1
+CUST00636,Jack Johnston,Retail,2019-07-06,RM004,London,1
+CUST00637,Lynne Young,Retail,2021-12-01,RM008,Bristol,1
+CUST00638,McDonald Inc,SME,2020-08-10,RM007,Manchester,1
+CUST00639,Dr Louis Birch,Retail,2021-01-03,RM006,Manchester,1
+CUST00640,"Hunt, Bennett and Hawkins",SME,2022-07-14,RM002,London,1
+CUST00641,Burns PLC,SME,2020-02-22,RM001,Manchester,1
+CUST00642,Zoe Kirby,Retail,2023-03-20,RM002,Edinburgh,1
+CUST00643,Abdul Barry,Retail,2021-02-01,RM010,Bristol,1
+CUST00644,Tina Jones,Retail,2022-03-21,RM001,Leeds,1
+CUST00645,Law LLC,SME,2022-04-12,RM009,Manchester,1
+CUST00646,Fiona Brooks,Retail,2022-10-22,RM009,Birmingham,1
+CUST00647,Colin Brown-Holt,Retail,2019-06-28,RM010,Birmingham,1
+CUST00648,Swift-Reed,SME,2022-04-06,RM005,Manchester,1
+CUST00649,Irene Davis,Retail,2021-04-10,RM005,Birmingham,1
+CUST00650,Dr Molly Mills,Retail,2020-06-20,RM010,Bristol,1
+CUST00651,Mrs Lucy Robinson,Retail,2020-01-30,RM007,Edinburgh,1
+CUST00652,Turnbull-Smith,SME,2023-04-30,RM006,Bristol,1
+CUST00653,Cooper-Williams,SME,2019-03-09,RM009,Birmingham,1
+CUST00654,Watson-Atkins,SME,2021-04-20,RM003,Birmingham,1
+CUST00655,"Allen, Smith and Evans",SME,2022-07-24,RM009,Leeds,1
+CUST00656,Emma King,Retail,2022-04-30,RM005,Bristol,1
+CUST00657,Carl Walsh,Retail,2020-12-29,RM001,Edinburgh,1
+CUST00658,"Kerr, Bowen and Campbell",SME,2021-04-03,RM009,Edinburgh,1
+CUST00659,Beth Hardy-Chadwick,Retail,2021-05-31,RM004,Birmingham,1
+CUST00660,Sheila Flynn-Lloyd,Retail,2021-09-27,RM002,Leeds,1
+CUST00661,Jones Group,SME,2023-01-27,RM009,Bristol,1
+CUST00662,Leon Patel-Campbell,Retail,2023-04-21,RM005,Leeds,1
+CUST00663,Max Roberts,Retail,2023-03-08,RM004,Edinburgh,1
+CUST00664,Mr Harry Davies,Retail,2020-11-26,RM004,Birmingham,1
+CUST00665,"Wong, Reeves and Williams",SME,2023-07-04,RM004,Manchester,1
+CUST00666,Jeremy Ferguson-Armstrong,Retail,2019-05-28,RM008,Manchester,1
+CUST00667,Harriet Cooke,Retail,2021-05-14,RM004,Edinburgh,1
+CUST00668,Allen and Sons,SME,2019-03-30,RM005,Leeds,1
+CUST00669,Mills PLC,SME,2020-08-07,RM006,Birmingham,1
+CUST00670,Clark-Martin,SME,2021-07-29,RM009,Leeds,1
+CUST00671,"Jones, Sutton and Williams",SME,2023-01-15,RM008,Birmingham,1
+CUST00672,Carole Clarke,Retail,2021-07-06,RM006,Leeds,1
+CUST00673,Dr Kim Tomlinson,Retail,2020-06-08,RM004,Bristol,1
+CUST00674,Tom Gough,Retail,2023-07-02,RM005,Edinburgh,1
+CUST00675,"Brown, Smith and Harper",SME,2021-12-08,RM003,Manchester,1
+CUST00676,Whitehead Inc,SME,2022-04-20,RM007,Edinburgh,1
+CUST00677,Miss Diana Collins,Retail,2020-10-16,RM009,Bristol,1
+CUST00678,McDonald Inc,SME,2022-02-23,RM008,Bristol,1
+CUST00679,Higgins-Hanson,SME,2021-01-03,RM003,Bristol,1
+CUST00680,Miller Ltd,SME,2022-08-23,RM003,Bristol,1
+CUST00681,Rhys Patel,Retail,2022-07-24,RM009,Bristol,1
+CUST00682,Dr Paige Patel,Retail,2020-08-26,RM001,London,1
+CUST00683,Mohamed Gardiner,Retail,2019-04-22,RM001,Leeds,1
+CUST00684,Jill Taylor,Retail,2020-01-21,RM004,London,1
+CUST00685,Louise Turner,Retail,2023-07-17,RM004,Edinburgh,1
+CUST00686,Ms Jade Lee,Retail,2021-07-01,RM001,Edinburgh,1
+CUST00687,Mr Kieran Hall,Retail,2019-11-23,RM008,London,1
+CUST00688,Abdul Douglas-Lamb,Retail,2020-08-10,RM009,Leeds,1
+CUST00689,Catherine Hall,Retail,2023-07-01,RM009,Bristol,1
+CUST00690,Valerie Barrett,Retail,2020-08-02,RM005,London,1
+CUST00691,William Higgins-Knowles,Retail,2022-08-02,RM002,London,1
+CUST00692,John Smith,Retail,2022-03-29,RM004,Edinburgh,1
+CUST00693,Carol Wright,Retail,2021-08-09,RM005,Leeds,1
+CUST00694,Clifford Davies,Retail,2021-07-01,RM007,Leeds,1
+CUST00695,Mr Adrian Cox,Retail,2019-09-07,RM004,Birmingham,1
+CUST00696,Dr Megan Powell,Retail,2019-12-05,RM001,London,1
+CUST00697,Mr Brian Heath,Retail,2021-06-19,RM007,Edinburgh,1
+CUST00698,Megan Sharp-Chandler,Retail,2023-04-12,RM001,Bristol,1
+CUST00699,Miss Elaine Atkins,Retail,2023-02-16,RM008,Leeds,1
+CUST00700,Joyce Bishop,Retail,2020-06-02,RM002,Edinburgh,1
+CUST00701,Miss Valerie Long,Retail,2022-04-21,RM004,Bristol,1
+CUST00702,Nicholas Johnson,Retail,2022-01-26,RM001,London,1
+CUST00703,Dr Jessica Page,Retail,2020-07-18,RM010,Bristol,1
+CUST00704,Albert Palmer,Retail,2022-08-02,RM006,London,1
+CUST00705,Sam Booth,Retail,2020-04-19,RM003,Bristol,1
+CUST00706,Ms Leanne Patel,Retail,2023-02-28,RM005,Manchester,1
+CUST00707,Dr Trevor Baker,Retail,2020-05-31,RM007,Bristol,1
+CUST00708,Carolyn Connor-Hall,Retail,2021-06-09,RM003,Bristol,1
+CUST00709,Heather Ali,Retail,2020-10-13,RM006,London,1
+CUST00710,Ms Georgina Smith,Retail,2021-02-20,RM004,London,1
+CUST00711,Maria Willis,Retail,2020-03-13,RM010,Edinburgh,1
+CUST00712,Jeffrey Green,Retail,2019-04-03,RM006,London,1
+CUST00713,Neil Barnett-Patel,Retail,2019-03-14,RM008,Leeds,1
+CUST00714,Josh Thomas,Retail,2021-08-06,RM009,Leeds,1
+CUST00715,Barbara Nelson,Retail,2022-07-20,RM010,Bristol,1
+CUST00716,Albert Moore,Retail,2023-02-10,RM010,Birmingham,1
+CUST00717,Stuart Taylor,Retail,2019-08-05,RM002,London,1
+CUST00718,Miss Linda Kelly,Retail,2022-09-23,RM007,Bristol,1
+CUST00719,Elizabeth Morris,Retail,2019-06-12,RM007,Birmingham,1
+CUST00720,Dr Adrian Booth,Retail,2022-12-29,RM002,London,1
+CUST00721,Timothy Frost-Smith,Retail,2021-02-05,RM006,Birmingham,1
+CUST00722,Miss Janice Hall,Retail,2022-11-06,RM002,Manchester,1
+CUST00723,Antony Herbert,Retail,2021-01-27,RM009,Edinburgh,1
+CUST00724,Dr Joan Gibson,Retail,2023-01-05,RM001,London,1
+CUST00725,Damian Carter-Potter,Retail,2020-06-25,RM002,Edinburgh,1
+CUST00726,Sheila Webster,Retail,2021-06-07,RM001,Birmingham,1
+CUST00727,Kim Taylor,Retail,2021-06-01,RM002,Bristol,1
+CUST00728,Liam Brown-Fisher,Retail,2020-05-20,RM009,Manchester,1
+CUST00729,Gregory Peters,Retail,2022-08-22,RM003,Birmingham,1
+CUST00730,Ann Chapman-Wilson,Retail,2022-02-01,RM008,Manchester,1
+CUST00731,Adrian Morley,Retail,2022-08-27,RM007,Birmingham,1
+CUST00732,Glenn Haynes,Retail,2021-11-29,RM008,London,1
+CUST00733,Dr Danny Cox,Retail,2022-03-07,RM004,Bristol,1
+CUST00734,Graham Hope,Retail,2020-04-05,RM010,Manchester,1
+CUST00735,Ms Diane Atkinson,Retail,2022-12-28,RM003,Birmingham,1
+CUST00736,Colin Bell,Retail,2021-05-16,RM006,Edinburgh,1
+CUST00737,Danny Andrews,Retail,2021-09-29,RM008,Birmingham,1
+CUST00738,Andrew Bryant,Retail,2019-12-10,RM010,Manchester,1
+CUST00739,Hollie Parker,Retail,2021-10-17,RM010,Bristol,1
+CUST00740,Chelsea Khan,Retail,2020-11-26,RM006,Manchester,1
+CUST00741,Connor Townsend,Retail,2021-10-20,RM005,Bristol,1
+CUST00742,Rebecca Lloyd,Retail,2020-05-12,RM004,Birmingham,1
+CUST00743,Christian Howard,Retail,2022-01-07,RM007,Birmingham,1
+CUST00744,Brett McDonald,Retail,2020-06-06,RM004,Edinburgh,1
+CUST00745,Hugh Jones,Retail,2019-10-08,RM009,London,1
+CUST00746,Brenda Fisher,Retail,2019-08-15,RM004,Leeds,1
+CUST00747,Julie Hill,Retail,2019-09-16,RM002,Leeds,1
+CUST00748,Sara Stewart-Brown,Retail,2022-10-23,RM005,Manchester,1
+CUST00749,Dr Craig Dean,Retail,2019-11-25,RM003,Bristol,1
+CUST00750,Marian Bray,Retail,2019-03-02,RM007,London,1
+CUST00751,Rosie Hill,Retail,2020-03-28,RM008,Edinburgh,1
+CUST00752,Dr Aaron James,Retail,2020-08-05,RM009,Bristol,1
+CUST00753,Joanna Schofield,Retail,2020-07-17,RM001,Birmingham,1
+CUST00754,Lawrence Smith,Retail,2022-12-24,RM004,Bristol,1
+CUST00755,Nathan Hodgson-Finch,Retail,2022-08-29,RM010,London,1
+CUST00756,Jill Chambers,Retail,2019-05-16,RM006,Leeds,1
+CUST00757,Andrew Green,Retail,2023-07-14,RM002,Birmingham,1
+CUST00758,Dr Julia Jones,Retail,2020-09-23,RM009,Edinburgh,1
+CUST00759,Christopher Campbell,Retail,2021-02-03,RM006,Leeds,1
+CUST00760,Rachael Brady,Retail,2019-04-06,RM010,Bristol,1
+CUST00761,Roger Armstrong,Retail,2021-08-28,RM001,Leeds,1
+CUST00762,Mr Arthur Bell,Retail,2021-12-07,RM007,London,1
+CUST00763,Bethany Hutchinson,Retail,2019-07-01,RM003,Birmingham,1
+CUST00764,Glen Jones-Parker,Retail,2021-09-01,RM008,Manchester,1
+CUST00765,Amelia Bennett,Retail,2021-08-21,RM008,London,1
+CUST00766,Lawrence Slater,Retail,2019-07-18,RM008,Birmingham,1
+CUST00767,Sally Brown,Retail,2021-11-28,RM001,Bristol,1
+CUST00768,Francesca Connor,Retail,2023-06-19,RM006,Bristol,1
+CUST00769,Dr Ian Burns,Retail,2019-10-18,RM003,Bristol,1
+CUST00770,Trevor Sullivan,Retail,2020-09-12,RM003,Edinburgh,1
+CUST00771,Dr Declan Wheeler,Retail,2021-09-26,RM009,Leeds,1
+CUST00772,Dr Diane Pearson,Retail,2022-04-17,RM007,Bristol,1
+CUST00773,Simon Knight-Simpson,Retail,2022-07-19,RM007,Leeds,1
+CUST00774,Carol Williams,Retail,2019-06-16,RM010,Manchester,1
+CUST00775,Mr Ronald Butler,Retail,2020-04-09,RM007,Leeds,1
+CUST00776,Joel Frost,Retail,2019-08-22,RM004,Manchester,1
+CUST00777,Dr Stephen Thomson,Retail,2019-05-17,RM002,Edinburgh,1
+CUST00778,Dr Duncan Wilson,Retail,2019-02-09,RM009,Manchester,1
+CUST00779,Roy Williams,Retail,2021-10-06,RM004,Leeds,1
+CUST00780,Iain Benson,Retail,2022-02-13,RM008,Edinburgh,1
+CUST00781,Rosie Harris,Retail,2020-03-30,RM007,Edinburgh,1
+CUST00782,Deborah Reeves,Retail,2020-04-19,RM002,Birmingham,1
+CUST00783,Janice Ellis,Retail,2021-01-09,RM010,Manchester,1
+CUST00784,Martin Cox,Retail,2020-02-23,RM010,London,1
+CUST00785,Miss Michelle Green,Retail,2021-11-01,RM002,Manchester,1
+CUST00786,Melissa Evans-Phillips,Retail,2022-12-08,RM003,Birmingham,1
+CUST00787,Tracey Kay,Retail,2020-09-22,RM007,Leeds,1
+CUST00788,Ricky Duffy,Retail,2020-05-14,RM007,Leeds,1
+CUST00789,Mrs Laura Archer,Retail,2020-11-11,RM009,Bristol,1
+CUST00790,Jordan Anderson,Retail,2020-06-24,RM003,Leeds,1
+CUST00791,Dr Alex Brown,Retail,2022-10-21,RM003,Birmingham,1
+CUST00792,Dr Patricia Wood,Retail,2020-02-13,RM001,Birmingham,1
+CUST00793,Adrian Bradshaw,Retail,2020-11-15,RM003,Manchester,1
+CUST00794,Amelia Palmer,Retail,2020-06-10,RM009,Bristol,1
+CUST00795,Wendy Hodgson,Retail,2021-04-19,RM008,Leeds,1
+CUST00796,Liam Collins,Retail,2020-11-07,RM003,London,1
+CUST00797,Miss Anna Hodgson,Retail,2019-02-17,RM004,Birmingham,1
+CUST00798,Mr Jeremy Smith,Retail,2022-01-19,RM004,Edinburgh,1
+CUST00799,Aimee Hughes,Retail,2022-08-25,RM008,Edinburgh,1
+CUST00800,Nigel Murphy,Retail,2020-07-05,RM009,London,1
+CUST00801,Kathleen Bailey,Retail,2022-02-02,RM009,Birmingham,1
+CUST00802,Miss Rosie Palmer,Retail,2019-05-01,RM008,Edinburgh,1
+CUST00803,Dr Gerald Shepherd,Retail,2021-03-17,RM002,Bristol,1
+CUST00804,Mr Kieran Potter,Retail,2021-12-03,RM001,Leeds,1
+CUST00805,Oliver Jones-Williamson,Retail,2021-08-21,RM002,Leeds,1
+CUST00806,Miss Donna Newman,Retail,2019-03-30,RM004,Manchester,1
+CUST00807,Duncan Morgan,Retail,2019-08-10,RM010,Bristol,1
+CUST00808,Mr Ben Patel,Retail,2022-08-30,RM010,Manchester,1
+CUST00809,Dr Justin Clark,Retail,2022-06-07,RM001,Edinburgh,1
+CUST00810,Oliver Wright,Retail,2020-08-09,RM005,Edinburgh,1
+CUST00811,George Richardson,Retail,2021-10-11,RM005,Birmingham,1
+CUST00812,James Watson,Retail,2020-09-15,RM002,Manchester,1
+CUST00813,Owen Kelly,Retail,2023-04-05,RM005,Bristol,1
+CUST00814,Dr Denis Rees,Retail,2019-08-29,RM003,Manchester,1
+CUST00815,Dr Tom Morley,Retail,2019-08-09,RM006,Manchester,1
+CUST00816,Derek Smith,Retail,2020-11-05,RM003,Edinburgh,1
+CUST00817,Martin Edwards,Retail,2020-01-27,RM007,Leeds,1
+CUST00818,Dr Alan Patterson,Retail,2023-03-03,RM002,Leeds,1
+CUST00819,Shane Jackson,Retail,2019-09-12,RM006,Leeds,1
+CUST00820,Howard Bennett,Retail,2021-10-03,RM010,London,1
+CUST00821,Dr Abdul Sims,Retail,2019-06-30,RM008,Bristol,1
+CUST00822,Mrs Michelle Hilton,Retail,2023-03-28,RM009,Leeds,1
+CUST00823,Brett Evans,Retail,2021-03-08,RM004,Leeds,1
+CUST00824,Stewart Thomas,Retail,2021-10-12,RM005,Birmingham,1
+CUST00825,Declan Willis,Retail,2020-06-01,RM008,Birmingham,1
+CUST00826,Dr Robin Whitehouse,Retail,2023-05-02,RM002,Bristol,1
+CUST00827,Danielle Morton,Retail,2023-07-02,RM002,Manchester,1
+CUST00828,Garry Bevan-Holmes,Retail,2021-01-12,RM001,Leeds,1
+CUST00829,Rosemary Patel,Retail,2019-09-24,RM003,Bristol,1
+CUST00830,Declan Fox,Retail,2022-09-13,RM005,London,1
+CUST00831,Keith Ward,Retail,2022-03-10,RM002,Birmingham,1
+CUST00832,Jodie Webb,Retail,2023-04-20,RM007,Bristol,1
+CUST00833,Mrs Amy Holden,Retail,2019-07-10,RM004,Leeds,1
+CUST00834,Steven Stone-Ward,Retail,2019-08-24,RM002,London,1
+CUST00835,Mr Elliot Jones,Retail,2020-12-01,RM002,Manchester,1
+CUST00836,Anthony Williams,Retail,2020-09-05,RM008,London,1
+CUST00837,Eric Newton-Hodgson,Retail,2019-09-10,RM006,London,1
+CUST00838,Mr Mark Baker,Retail,2019-09-13,RM003,Leeds,1
+CUST00839,Alexander Davies,Retail,2022-04-23,RM007,London,1
+CUST00840,Lesley Lewis,Retail,2023-01-05,RM006,Birmingham,1
+CUST00841,Jason Butcher,Retail,2022-10-28,RM007,Manchester,1
+CUST00842,Dr Megan Roberts,Retail,2023-03-17,RM009,Edinburgh,1
+CUST00843,Colin Birch,Retail,2020-03-03,RM003,Leeds,1
+CUST00844,Robin Byrne,Retail,2019-07-17,RM004,Bristol,1
+CUST00845,Mohammad Young-Power,Retail,2021-04-13,RM010,Bristol,1
+CUST00846,Dr Sarah Cole,Retail,2022-05-17,RM002,London,1
+CUST00847,Olivia Mitchell,Retail,2019-05-16,RM002,Edinburgh,1
+CUST00848,Mr Gerard Warner,Retail,2021-08-15,RM007,Birmingham,1
+CUST00849,Mr Justin Rose,Retail,2022-03-15,RM005,Bristol,1
+CUST00850,Kevin Smith,Retail,2022-03-14,RM009,Edinburgh,1
+CUST00851,Dr Arthur Morgan,Retail,2019-03-23,RM001,Bristol,1
+CUST00852,Dr Irene Gilbert,Retail,2022-06-10,RM009,Edinburgh,1
+CUST00853,Melanie Parsons,Retail,2019-05-26,RM007,Birmingham,1
+CUST00854,Dylan Thompson,Retail,2019-03-13,RM004,Leeds,1
+CUST00855,Jay Roberts,Retail,2022-12-17,RM004,Leeds,1
+CUST00856,Bryan Cunningham,Retail,2020-08-18,RM001,Birmingham,1
+CUST00857,Sally Hardy,Retail,2022-11-07,RM007,Edinburgh,1
+CUST00858,Amy Akhtar-Faulkner,Retail,2021-07-17,RM009,Bristol,1
+CUST00859,Gordon Fletcher,Retail,2019-04-25,RM008,London,1
+CUST00860,Carly Cooper,Retail,2020-04-19,RM002,London,1
+CUST00861,June Woods,Retail,2022-05-20,RM001,London,0
+CUST00862,Brandon Begum-Lord,Retail,2020-10-01,RM005,Bristol,0
+CUST00863,Grace Barber,Retail,2021-03-20,RM007,London,0
+CUST00864,Sally Gray,Retail,2022-01-13,RM002,Birmingham,0
+CUST00865,Richard Taylor,Retail,2020-09-21,RM004,Manchester,0
+CUST00866,June Khan,Retail,2021-05-26,RM010,Bristol,0
+CUST00867,Dr Leonard Lowe,Retail,2021-11-07,RM007,Bristol,0
+CUST00868,Dennis Richardson,Retail,2023-04-08,RM004,London,0
+CUST00869,Dr Grace Thompson,Retail,2022-12-10,RM008,Edinburgh,0
+CUST00870,Stephen Coles,Retail,2021-11-09,RM003,London,0
+CUST00871,Donna Rhodes,Retail,2019-08-16,RM003,Bristol,0
+CUST00872,Sara Barber,Retail,2022-09-03,RM008,Birmingham,0
+CUST00873,Dr Lawrence Cox,Retail,2022-08-28,RM006,Manchester,0
+CUST00874,Dr Henry Lewis,Retail,2019-06-25,RM002,London,0
+CUST00875,Kevin Phillips,Retail,2021-03-08,RM005,Edinburgh,0
+CUST00876,Justin Freeman,Retail,2022-02-12,RM010,Bristol,0
+CUST00877,Mr Gerald Kaur,Retail,2020-10-22,RM008,Edinburgh,0
+CUST00878,Mrs Jill Myers,Retail,2023-04-13,RM008,Edinburgh,0
+CUST00879,Christine Power-Stone,Retail,2021-07-12,RM003,Birmingham,0
+CUST00880,Mr Gerald Taylor,Retail,2020-05-16,RM002,Manchester,0
+CUST00881,Elaine Kelly,Retail,2023-05-06,RM001,Manchester,0
+CUST00882,Billy Conway-Taylor,Retail,2020-12-11,RM006,Leeds,0
+CUST00883,Guy Rowe,Retail,2022-08-03,RM001,Edinburgh,0
+CUST00884,Brian McKenzie,Retail,2022-05-02,RM006,Manchester,0
+CUST00885,Mr Robert Pearce,Retail,2019-07-21,RM006,Birmingham,0
+CUST00886,Bradley Anderson,Retail,2020-05-21,RM006,London,0
+CUST00887,Georgia Robinson,Retail,2022-08-02,RM004,Edinburgh,0
+CUST00888,Donna Allen-Watson,Retail,2021-05-05,RM002,Leeds,0
+CUST00889,Declan Sharp,Retail,2019-04-03,RM005,Birmingham,0
+CUST00890,Chelsea Bell,Retail,2020-06-28,RM008,London,0
+CUST00891,Jill Clarke-Taylor,Retail,2022-06-20,RM005,Edinburgh,0
+CUST00892,Anne Ellis,Retail,2019-06-12,RM010,Manchester,0
+CUST00893,Mr Declan Gilbert,Retail,2021-07-11,RM010,Leeds,0
+CUST00894,Carly Donnelly,Retail,2019-06-26,RM009,Manchester,0
+CUST00895,Gavin Patel,Retail,2023-07-22,RM007,London,0
+CUST00896,Ellie James,Retail,2020-07-21,RM006,Bristol,0
+CUST00897,Mr Reece Lewis,Retail,2021-09-17,RM001,Bristol,0
+CUST00898,Rita Hudson-Connolly,Retail,2019-06-15,RM005,London,0
+CUST00899,Ben Jackson,Retail,2020-08-14,RM004,Leeds,0
+CUST00900,Mr Bernard Thomson,Retail,2023-04-04,RM003,Bristol,0
+CUST00901,Antony Baker-Coles,Retail,2023-01-26,RM001,Manchester,0
+CUST00902,Ms Shirley West,Retail,2019-08-30,RM006,Leeds,0
+CUST00903,Aaron Stanley,Retail,2020-05-02,RM002,Edinburgh,0
+CUST00904,Judith French-Clarke,Retail,2020-01-07,RM007,London,0
+CUST00905,Dr Ronald Lawrence,Retail,2021-02-25,RM003,Manchester,0
+CUST00906,Mr Daniel Spencer,Retail,2022-02-16,RM006,Leeds,0
+CUST00907,Dr John Harvey,Retail,2021-10-22,RM008,Birmingham,0
+CUST00908,Mr Gerald Murphy,Retail,2023-03-05,RM004,Manchester,0
+CUST00909,Ms Beth Walker,Retail,2022-09-20,RM002,Manchester,0
+CUST00910,Derek Walsh,Retail,2020-12-23,RM006,Leeds,0
+CUST00911,Joanne Waters-Smith,Retail,2020-08-02,RM006,Manchester,0
+CUST00912,Ms Margaret Frost,Retail,2021-11-11,RM008,Birmingham,0
+CUST00913,Diana Mitchell-Mahmood,Retail,2023-01-31,RM003,Bristol,0
+CUST00914,Lindsey Green,Retail,2019-08-22,RM010,London,0
+CUST00915,Marilyn Hamilton,Retail,2021-10-02,RM003,London,0
+CUST00916,Nathan Reynolds,Retail,2021-08-06,RM007,Edinburgh,0
+CUST00917,Christopher Bailey,Retail,2019-10-18,RM005,Birmingham,0
+CUST00918,Mrs Kirsty Garner,Retail,2023-06-02,RM007,Leeds,0
+CUST00919,Alan Wilson,Retail,2023-01-23,RM008,London,0
+CUST00920,Jane Webb,Retail,2022-11-29,RM001,London,0
+CUST00921,Miss Diane Cooper,Retail,2022-11-10,RM004,Leeds,0
+CUST00922,Mr Danny Turner,Retail,2019-09-29,RM002,Edinburgh,0
+CUST00923,Janet Hill,Retail,2023-03-04,RM001,London,0
+CUST00924,Irene Brooks,Retail,2019-12-21,RM008,Manchester,0
+CUST00925,Clive Wood,Retail,2021-09-24,RM002,London,0
+CUST00926,Keith Bell,Retail,2023-04-23,RM003,Edinburgh,0
+CUST00927,Glenn Williams,Retail,2019-07-13,RM007,Leeds,0
+CUST00928,Tracey Wheeler,Retail,2021-06-12,RM007,Manchester,0
+CUST00929,Helen Wright,Retail,2022-05-22,RM003,Birmingham,0
+CUST00930,Miss Shirley McLean,Retail,2021-02-02,RM003,London,0
+CUST00931,Catherine White,Retail,2019-12-18,RM005,Leeds,0
+CUST00932,Catherine Fisher,Retail,2020-07-03,RM008,London,0
+CUST00933,Leon Kirby,Retail,2022-01-09,RM007,Manchester,0
+CUST00934,James Baker-Slater,Retail,2022-06-22,RM009,Manchester,0
+CUST00935,Clare Weston-Bond,Retail,2021-06-12,RM006,Leeds,0
+CUST00936,Dominic Harris-Holloway,Retail,2021-08-30,RM010,Edinburgh,0
+CUST00937,Mr Louis Cooper,Retail,2021-05-31,RM005,Manchester,0
+CUST00938,Rachael Dawson,Retail,2021-10-20,RM010,Manchester,0
+CUST00939,Jasmine Gregory,Retail,2019-03-24,RM005,London,0
+CUST00940,Paula McDonald,Retail,2020-08-15,RM006,Edinburgh,0
+CUST00941,Georgina Taylor,Retail,2022-09-12,RM002,Manchester,0
+CUST00942,Rhys Owen,Retail,2022-02-05,RM009,Bristol,0
+CUST00943,Nicholas Carter,Retail,2019-04-23,RM004,Edinburgh,0
+CUST00944,Mr John Fox,Retail,2021-08-08,RM003,Manchester,0
+CUST00945,Holly Stevens,Retail,2020-04-08,RM006,Bristol,0
+CUST00946,Andrea O'Sullivan,Retail,2020-04-10,RM001,Bristol,0
+CUST00947,Tony Perkins,Retail,2020-05-29,RM010,Manchester,0
+CUST00948,Dr Patricia Hart,Retail,2020-10-30,RM009,Birmingham,0
+CUST00949,Mohammad Gould,Retail,2020-11-03,RM001,London,0
+CUST00950,Denise Hooper,Retail,2022-04-15,RM010,Manchester,0
+CUST00951,Ann Wilkinson,Retail,2020-08-21,RM008,London,0
+CUST00952,Mrs Denise Harrison,Retail,2020-02-24,RM004,Manchester,0
+CUST00953,Trevor Tomlinson-Hopkins,Retail,2019-07-28,RM003,Birmingham,0
+CUST00954,Mrs Carole Blackburn,Retail,2023-06-21,RM003,Edinburgh,0
+CUST00955,Denise King,Retail,2019-04-02,RM002,Edinburgh,0
+CUST00956,Nicholas Baldwin,Retail,2023-03-09,RM006,Bristol,0
+CUST00957,Brian Harrison-O'Brien,Retail,2020-04-21,RM002,Birmingham,0
+CUST00958,Miss Jennifer Patel,Retail,2021-10-13,RM003,Manchester,0
+CUST00959,Aaron Hope-Hardy,Retail,2019-02-25,RM008,Bristol,0
+CUST00960,Zoe Gough,Retail,2022-08-13,RM009,Bristol,0
+CUST00961,Marian Collins-Edwards,Retail,2022-05-04,RM010,Manchester,0
+CUST00962,Terry Hamilton,Retail,2021-11-14,RM005,Manchester,0
+CUST00963,Conor Evans,Retail,2019-07-04,RM001,Bristol,0
+CUST00964,Glen Thompson,Retail,2019-04-09,RM010,London,0
+CUST00965,Pamela Griffin,Retail,2020-03-19,RM006,Edinburgh,0
+CUST00966,Tom Wood,Retail,2020-01-03,RM010,London,0
+CUST00967,Kathryn Harper,Retail,2022-10-20,RM006,Bristol,0
+CUST00968,Mr Adrian Thomas,Retail,2022-04-04,RM006,Birmingham,0
+CUST00969,Dr Sharon Gardner,Retail,2020-01-10,RM002,Bristol,0
+CUST00970,Mr Martyn Roberts,Retail,2021-02-01,RM001,Birmingham,0
+CUST00971,Toby Burton-Storey,Retail,2022-03-11,RM002,Birmingham,0
+CUST00972,Miss Abigail Mason,Retail,2019-03-07,RM002,Bristol,0
+CUST00973,Christian Baldwin,Retail,2023-04-28,RM007,Leeds,0
+CUST00974,Richard Gardner,Retail,2022-08-29,RM007,Leeds,0
+CUST00975,Mr Marc Rees,Retail,2021-08-15,RM009,Leeds,0
+CUST00976,Patrick Griffin,Retail,2020-11-26,RM010,Bristol,0
+CUST00977,Maureen Hopkins-Murphy,Retail,2022-09-05,RM008,London,0
+CUST00978,Ms Donna Moore,Retail,2021-12-09,RM001,Birmingham,0
+CUST00979,Dorothy Smith-Chan,Retail,2023-01-02,RM002,Birmingham,0
+CUST00980,Nigel Hope,Retail,2021-06-27,RM003,Bristol,0
+CUST00981,Adrian Hayes,Retail,2020-07-10,RM002,Birmingham,0
+CUST00982,Mrs Megan Henderson,Retail,2019-08-23,RM001,Leeds,0
+CUST00983,Denis Shaw,Retail,2020-03-09,RM007,Manchester,0
+CUST00984,Mrs Lydia Patel,Retail,2023-01-09,RM006,Manchester,0
+CUST00985,Carl Webb-Hill,Retail,2021-04-18,RM009,Bristol,0
+CUST00986,Anna Hughes,Retail,2019-11-21,RM005,Birmingham,0
+CUST00987,Rachel Ellis,Retail,2023-01-20,RM001,Leeds,0
+CUST00988,Gemma Woodward,Retail,2022-09-24,RM001,Birmingham,0
+CUST00989,Dr Bruce Bowen,Retail,2021-03-12,RM002,Birmingham,0
+CUST00990,Luke Jackson,Retail,2022-06-22,RM002,London,0
+CUST00991,Joseph Todd,Retail,2022-08-20,RM005,London,0
+CUST00992,Mrs Naomi Swift,Retail,2022-12-11,RM005,Leeds,0
+CUST00993,Ms Elaine Harris,Retail,2020-11-06,RM005,London,0
+CUST00994,Dr Dominic Harrison,Retail,2022-07-22,RM006,Leeds,0
+CUST00995,Ben Stephens-Dixon,Retail,2022-07-18,RM008,London,0
+CUST00996,Caroline Khan,Retail,2021-02-15,RM008,Birmingham,0
+CUST00997,Mr Martin Whitehouse,Retail,2022-01-31,RM010,London,0
+CUST00998,Donald Sinclair,Retail,2019-05-17,RM002,London,0
+CUST00999,Sara Evans,Retail,2020-07-22,RM007,Edinburgh,0
+CUST01000,Mr Eric Herbert,Retail,2020-06-27,RM001,Leeds,0

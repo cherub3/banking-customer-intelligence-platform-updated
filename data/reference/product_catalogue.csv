@@ -1,0 +1,6 @@
+product_id,product_name,product_category,is_core_product
+P001,Business Current Account,Payments,1
+P002,Fixed Term Deposit,Deposits,1
+P003,Business Loan,Lending,1
+P004,Business Credit Card,Payments,0
+P005,Investment Portfolio,Investments,0

@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Database Files
+# =========================
+*.duckdb
+*.duckdb-wal
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Logs & Temporary Files
+# =========================
+*.log
+*.tmp
+*.temp
+business_metrics_output.txt
+
+# =========================
+# IDE Files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Claude / AI Artifacts
+# =========================
+.claude/
+
+# =========================
+# Build Artifacts
+# =========================
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# =========================
+# Large Generated Data
+# =========================
+dataset/
+data/*.duckdb
+data/**/*.duckdb
+
+# =========================
+# Optional Files To Exclude
+# Uncomment if removing these
+# =========================
+
+# eda.ipynb
+# optional_pandas_pipeline.py
+# load_raw_data.sql
+# stage1_cleaning.sql
+# stage2_modeling.sql
+# stage3_features.sql
+# stage4_analytics.sql
+
+
+eda.ipynb
+load_raw_data.sql
+optional_pandas_pipeline.py
+stage1_cleaning.sql
+stage2_modeling.sql
+stage3_features.sql
+stage4_analytics.sql
