@@ -74,7 +74,7 @@ with c2:
     st.markdown(kpi_card(
         "Avg Health Score",
         f"{avg_health:.0f} / 100",
-        sub="Healthy ≥70 · Watchlist 45–69 · At-Risk <45",
+        sub="Healthy ≥70 · Watchlist 45–69 · At-Risk 25–44 · Critical <25",
     ), unsafe_allow_html=True)
 
 with c3:

@@ -151,9 +151,10 @@ findings = [
         C["orange"],
         "Portfolio Revenue Declined 3.4% Quarter-on-Quarter",
         f"Portfolio fee revenue fell from £{rev_prior:,.0f} to £{rev_90d:,.0f} "
-        f"(−{abs(rev_qoq):.1f}%). The decline is broad-based: {dormant} dormant accounts (zero revenue), "
-        f"204 At-Risk customers averaging −45.8% revenue change, and 77 Regular-tier customers "
-        f"averaging −28.4% revenue change. If left unaddressed, QoQ decline will compound.",
+        f"(−{abs(rev_qoq):.1f}%). The decline is concentrated in two segments: {dormant} Dormant accounts "
+        f"averaging −95.0% revenue change (effectively zero revenue), and 227 At-Risk customers averaging "
+        f"−42.2% revenue change. The Regular segment remains stable and is not a contributor to the decline "
+        f"(+7.5% average). If left unaddressed, the At-Risk and Dormant decline will compound.",
     ),
     (
         "4",
